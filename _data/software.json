@@ -33,7 +33,7 @@
     {
       "url": "http://www.getfirefox.com/",
       "nome": "Mozilla Firefox"
-    }
+    },
 	{
       "url": "http://hc.apache.org/httpcomponents-client-ga/",
       "nome": "Apache HTTPComponents Client",
