@@ -17,7 +17,7 @@ In our course, we will make use of three main software applications:
 - Tomcat (<https://tomcat.apache.org/>), the Java web server,
 - the JDK (<https://jdk.java.net/>), on which both the above programs will run.
 
-Morevoer, we will use
+Moreover, we will use
 - Postman (<https://www.postman.com/>) to test RESTful services,
 - Swagger Editor (<https://editor.swagger.io/>) to assist us in writing OpenAPI specifications.
 

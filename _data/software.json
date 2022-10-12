@@ -30,6 +30,20 @@
         "en": "A good editor for code and scripts"
       }
     },
+	 {
+      "url": "https://www.postman.com/downloads/",
+      "nome": "Postman",
+      "commento": {
+        "all": "An API platform for building and using APIs"
+      }
+    },
+	{
+      "url": "https://editor.swagger.io/",
+      "nome": "Swagger Editor",
+      "commento": {
+        "all": "Design, describe, and document your API on the first open source editor supporting multiple API specifications and serialization formats"
+      }
+    },
     {
       "url": "http://www.getfirefox.com/",
       "nome": "Mozilla Firefox"
