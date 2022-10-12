@@ -1,0 +1,85 @@
+  [
+  {
+      "url": "https://jdk.java.net",
+      "nome": "The Java Platform, Standard Edition",
+	  "versione": 18     
+    },
+    {
+      "url": "https://netbeans.apache.org/download/",
+      "nome": "Apache NetBeans",
+	  "versione": 15,
+      "commento": {
+        "it": "Ambiente di sviluppo integrato Java (utile per la realizzazione delle web application)",
+        "en": "A Java IDE, useful to develop web applications"
+      }
+    },
+	{
+      "url": "https://tomcat.apache.org",
+      "nome": "Apache Tomcat",
+	  "versione": 9,
+      "commento": {
+        "it": "Un server web HTTP gratuito e open source che supporta la tecnologia Java/Jakarta Servlet",
+        "en": "A free and open source HTTP web server supporting the Java/Jakarta Servlet technology"
+      }
+    },	
+    {
+      "url": "http://notepad-plus.sourceforge.net/",
+      "nome": "Notepad++",
+      "commento": {
+        "it": "Un editor potente per scrivere codice e script",
+        "en": "A good editor for code and scripts"
+      }
+    },
+    {
+      "url": "http://www.getfirefox.com/",
+      "nome": "Mozilla Firefox"
+    },
+    {
+      "url": "http://www.google.com/chrome/",
+      "nome": "Google Chrome"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/edge",
+      "nome": "Microsoft Edge (Chromium)"
+    },
+    {
+      "url": "http://tidy.sourceforge.net/",
+      "nome": "HTML Tidy",
+      "commento": {
+        "it": "Un tool per verificare la correttezza e l'accessibilità delle pagine web",
+        "en": "A tool to analyze (and correct) many structural and accessibility problems of web pages"
+      }
+    },
+    {
+      "url": "http://users.skynet.be/mgueury/mozilla/download.html",
+      "nome": "HTML Validator",
+      "commento": {
+        "it": "Un add-on che permette di validare le proprie pagine senza passare per il sito del W3C.",
+        "en": "An add-on to automatically validate web pages."
+      }
+    },
+    {
+      "url": "http://sass-lang.com",
+      "nome": "SASS: Syntactically Awesome Style Sheets",
+      "commento": {
+        "it": "Un preprecessore per i fogli di stile.",
+        "en": "A style sheet preprocessor."
+      }
+    },
+    {
+      "url": "https://freemarker.apache.org/",
+      "nome": "Apache FreeMarker",
+      "commento": {
+        "it": "Una libreria per sviluppare ed utilizzare templates in Java",
+        "en": "A Java template library"
+      }
+    },
+    {
+      "url": "http://www.mysql.com/downloads/connector/j/",
+      "nome": "MySQL Connector/J",
+      "commento": {
+        "it": "Il driver JDBC per MySQL",
+        "en": "The MySQL JDBC driver"
+      }
+    }
+  ]

@@ -1,0 +1,19 @@
+[	  
+ 
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "nome": {
+      "all": "Javascript reference from MDN"
+    }
+  },
+  {
+      "nome": {
+        "all": "Java Servlet Technology"
+      },
+      "commento": {
+        "it": "Tutte le informazioni di base sulle servlet direttamente dal Java EE 6 Tutorial"
+      },
+      "url": "http://download.oracle.com/javaee/6/tutorial/doc/bnafd.html"
+    }
+    
+]

@@ -1,0 +1,119 @@
+{%include pageglobal.html %}
+
+{% assign    scopedinfoname = 'log-' | append: ryear %}
+{% if site.data[scopedinfoname] %}
+{% assign log = site.data[scopedinfoname] %}
+{% endif %}
+
+<h2>Lectures Log - A.Y. {{ryear}}/{{ryear | plus: 1}}</h2>
+
+{% assign logs = "" | split: "," %}
+{% for page in site.pages %}
+{% assign target = page.url | slice: -9,9 %}
+{% if target == "/log.html" %}
+{% assign log_language = page.url | slice: 1,2 %}
+{% if log_language == language %}
+{% assign log_year = page.url | slice: -13,4 %}
+{% assign addition = log_year | plus: 0 %}
+{% capture addition %}{{addition}}{% endcapture %}
+{% if log_year  == addition %}
+{% assign log_year = log_year | plus: 0 %}
+{% assign logs = logs | push: log_year %}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+<div class="card mb-3">
+<div class="card-body">
+<select class="form-control mb-1 form-control-sm" name="jumptoyear" id="jumptoyear">
+<option {% if ryear == ayear %} selected {% endif %} value="/en/log">Academic year {{ ayear }}/{{ ayear | plus: 1 }} (current)</option>
+{% for log_year in logs | sort | reverse %}
+<option {% if ryear == log_year %} selected {% endif %} value="/en/{{ log_year }}/log">Academic year {{ log_year }}/{{ log_year | plus: 1 }}</option>
+{% endfor %}
+</select>
+
+<script>
+document.getElementById('jumptoyear').addEventListener("change",function() { 
+  location.href = document.getElementById('jumptoyear').value;  
+});
+</script>
+
+{% if log %}
+<select class="form-control form-control-sm" name="jumpto" id="jumpto">
+<option value="">Jump to lecture...</option>
+{% assign dl = 0 %}
+{% assign nl = 0 %}
+{% for lezione in log %}
+{% unless lezione.show == false %} 
+{% assign nl = nl | plus: 1 %}
+{% assign dl = dl | plus: lezione.duration %}
+{% if nl == 1 %}{% assign primalezione = lezione %}{% endif %}
+{% assign ultimalezione = lezione %}
+<option value="#L{{ nl }}">{{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
+{% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</option>
+{% endunless %}
+{% endfor %}
+</select>
+
+<script>
+document.getElementById('jumpto').addEventListener("change",function() { 
+  let anchor = document.getElementById('jumpto').value;
+  if (anchor!="") { 
+	let url = location.href; 
+  	location.href = "#"+ anchor;
+  	history.replaceState(null,null,url); 
+	document.getElementById('jumpto').value="";
+  }
+});
+</script>
+{% endif %}
+</div>
+
+{% if log %}
+<div class="card-footer">
+<small><em>Total lectures: {{ nl }}, total lecture hours: {{ dl }}
+- First lecture: {{ primalezione.date | date: "%Y-%m-%d" }}, Last lecture: {{ ultimalezione.date | date: "%Y-%m-%d" }}
+</em></small>
+</div>
+{% endif %}
+</div>
+
+{% if log %}
+{% assign nl = 0 %}
+{% for lezione in log %}
+{% unless lezione.show == false %} 
+{% assign nl = nl | plus: 1 %}
+<h3><a name="#L{{ nl }}"/>{{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
+{% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</h3>
+<p><small><em>{{ lezione.date | date: "%Y-%m-%d, %H:%M" }} ({{ lezione.duration }} hours)</em></small></p>
+<ul>
+{% assign na = 0 %}
+{% for argomento in lezione.arguments %}
+{% unless argomento.show == false %} 
+{% assign na = na | plus: 1 %}
+<li>({{ nl }}-{{ na }}) 
+{% if argomento.type == "esempio" %} 
+{% if argomento[language] or argomento['all'] %}<em>Example: </em>{% else %}<em>Examples</em>{% endif %}
+{% endif %}
+{% if argomento[language] %} {{ argomento[language] }}
+{% elsif argomento['all'] %} {{ argomento['all'] }}{% endif %}
+{% if argomento.ref %} <em>(material: {{ argomento.ref }})</em> {% endif %}
+</li>
+{% endunless %}
+{% endfor %}
+{% endunless %}
+</ul>
+
+{% if lezione.notes[language] %} <p><em>{{ lezione.notes[language] }}</em></p>
+{% elsif lezione.notes['all'] %} <p><em>{{ lezione.notes['all'] }}</em></p>{% endif %}
+
+{% endfor %}
+
+
+{% else %}
+<div class="alert alert-warning" role="alert">
+  <em>No lecture available</em>
+</div>
+
+{% endif %}

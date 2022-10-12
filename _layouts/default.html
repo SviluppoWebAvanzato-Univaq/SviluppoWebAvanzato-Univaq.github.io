@@ -1,0 +1,94 @@
+---
+---
+
+{%include pageglobal.html %}
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="author" content="Giuseppe Della Penna"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">  
+<link rel="stylesheet" href="{{ '/assets/css/bootstrap-icons.css?v=' | append: site.github.build_revision | relative_url }}">  
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<script src="{{ '/assets/js/jquery-3.6.1.min.js?v=' | append: site.github.build_revision | relative_url }}">/* */</script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<title>{{ courseinfo.nome }} :: {{ page.title }}</title>
+  </head>
+  <body>
+    <div class="wrapper container-fluid">
+	<div class="row">
+	<div class="sidebar col-sm-3 col-12">
+	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
+      <a name="top"/>
+	  <header class="sticky-md-top">
+	  
+        <h1 class="header"><a href="/{{language}}/info">{{ courseinfo.nome }}</a></h1>
+        <p class="header">{% if courseinfo.descrizione[language] %}   {{ courseinfo.descrizione[language] }}{% elsif courseinfo.descrizione['all'] %}   {{ courseinfo.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
+
+{% assign menufile = 'menu-' | append: language %}
+{% if site.data[menufile] %}
+		<ul class="nav mb-1 flex-row flex-sm-column nav-pills">
+		{% for item in site.data[menufile] %}
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">
+		{% if item.icon %}<span class="bi {{item.icon}}"></span>&nbsp;{% endif %}{{ item.label }}</a></li>
+		{% endfor %}
+		</ul>
+{% endif %}
+	      
+{% if layout.menuitems %}
+		<ul class="nav  mb-1  flex-row flex-sm-column nav-pills">
+		{% for item in layout.menuitems %}
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a></li>
+		{% endfor %}
+		</ul>
+{% endif %}
+
+{% if page.menuitems %}
+		<ul class="nav  mb-1  flex-row flex-sm-column nav-pills">
+		{% for item in page.menuitems %}
+		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">{{ item.label }}</a></li>
+		{% endfor %}		
+		</ul>
+{% endif %}		
+
+		<ul class="nav mt-1 flex-row flex-sm-column nav-pills">
+		{% assign language = page.url | slice: 1,2 %}
+		{% if language == 'en' %}
+			<li class="nav-item"><a  class="nav-link" href="/it/{{page.url | slice: 4,5000}}"><span class="bi bi-translate"></span>&nbsp;In Italiano</a></li>
+		{% elsif language == 'it' %}
+			<li class="nav-item"><a  class="nav-link" href="/en/{{page.url | slice: 4,5000}}"><span class="bi bi-translate"></span>&nbsp;In English</a></li>
+		{% endif %}
+		</ul>
+      </header>
+	        </div>
+			
+      <section class="py-sm-5 col">
+       
+{{ content }}
+
+      </section>
+</div>
+<div class="row mt-3">
+      <div class="col-12">
+	  <footer>
+  {% if language == 'it' %}
+	  	          <p ><strong>Docente: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
+  	            	          <p ><strong>Email docente:</strong> giuseppe.dellapenna@univaq.it</p>
+  	                  <p ><strong>Ricevimento studenti: </strong> Mercoledì,15-17 <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
+		{% else %}
+	      <p ><strong>Teacher: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
+       <p ><strong>Office Hours: </strong> Wednesday,15-17 <em>(Please contact the teacher in advance to agree the meeting modality</em>)</p>
+	<p ><strong>Teacher Email:</strong> giuseppe.dellapenna@univaq.it</p>
+	{% endif %}
+      </footer>
+	  </div>
+	  </div>
+    </div>
+  <a id="totop" href="#top"><i class="bi bi-chevron-double-up"></i></a>
+  <script src="{{ '/assets/js/scripts.js?v=' | append: site.github.build_revision | relative_url }}">/* */</script>
+  </body>
+</html>

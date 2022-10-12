@@ -1,0 +1,51 @@
+{
+  "slides": [
+    {
+      "url": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides",
+      "nome": {
+        "it": "Repository delle slide del corso",
+        "en": "Course slides repository"
+      },
+      "commento": {
+        "it": "Da controllare spesso per aggiornamenti!",
+        "en": "Always check for updates!"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "url": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Project_Specifications",
+      "nome": {
+        "it": "Repository dei progetti di fine corso",
+        "en": "Final project specifications repository"
+      },
+      "commento": {
+        "it": "Questa raccolta contiene tutti i progetti di fine corso, divisi per anno accademico",
+        "en": "A collection of all the final course projects for each academic year"
+      }
+    }
+  ],
+  "examples": [
+   
+    {
+      "nome": {
+        "it": "Applicazioni base JAX-RS", "en":"JAX-RS base applications"
+      },
+      "url": "https://github.com/orgs/WebEngineering-Univaq/repositories?q=JAXRS_Base&type=all&language=&sort=name",
+      "commento": {
+        "it": "Un progetto contenente la struttura di base di una RESTful API sviluppata con JAX-RS",
+        "en": "A project with the base structure of any RESTful API developed with JAX-RS"
+      }
+    },
+	 {
+      "nome": {
+        "all": "jQuery"
+      },
+      "url": "https://github.com/orgs/WebEngineering-Univaq/repositories?q=JQ_&type=all&language=&sort=name",
+      "commento": {
+        "it": "Una serie di applicazioni di esempio basate su jQuery",
+        "en": "A collection of jQuery-based example applications"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Sillabo",
+    "url": "/it/info.html#sillabo",
+	"icon": "bi-card-list"
+  },
+  {
+    "label": "Testi",
+    "url": "/it/info.html#testi",
+	"icon": "bi-book"
+  },  
+  {
+    "label": "Slides",
+    "url": "/it/materiale.html#slides",
+	"icon": "bi-easel"
+  },
+  {
+    "label": "Esempi",
+    "url": "/it/materiale.html#esempi",
+	"icon": "bi-code-square"
+  },
+  {
+    "label": "Progetti",
+    "url": "/it/materiale.html#progetti",
+	"icon": "bi-bank"
+  },  
+  {
+    "label": "Diario lezioni",
+    "url": "/it/log.html",
+	"icon": "bi-calendar-week"
+  },  
+  {
+    "label": "Software",
+    "url": "/it/risorse.html#software",
+	"icon": "bi-tools"
+  },
+  {
+    "label": "Altre risorse",
+    "url": "/it/risorse.html#links",
+	"icon": "bi-link-45deg"
+  }
+]

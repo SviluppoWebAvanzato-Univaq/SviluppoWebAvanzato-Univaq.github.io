@@ -1,0 +1,57 @@
+{% assign language = page.language | default: 'it' %}
+
+{% assign    cyear = site.time | date: '%Y' | times: 1 %}
+{% assign    cmonth = site.time | date: '%m'  | times: 1  %}
+{% assign    cday = site.time | date: '%d'  | times: 1  %}
+
+{% if cmonth < 9 %}
+{% assign    ayear = cyear | minus: 1 %}
+{% else %}
+{% assign    ayear = cyear  %}
+{% endif %}
+
+{% assign    ryear = ayear  %}
+
+{% assign pageurlseg = page.url | split: "/" %}
+{% if pageurlseg.size > 3 %}
+{% assign addition = pageurlseg[2] | plus: 0 %}
+{% capture addition %}{{addition}}{% endcapture %}
+{% if pageurlseg[2]  == addition %}
+{% assign  ryear = pageurlseg[2] | times: 1  %}
+{% endif %}
+{% endif %}
+
+{% assign    scopedinfoname = 'info-' | append: ryear %}
+{% if site.data[scopedinfoname] %}
+{% assign courseinfo = site.data[scopedinfoname]  %}
+{% else %}
+{% assign courseinfo = site.data.info  %}
+{% endif %}
+
+{% assign    scopedinfoname = 'links-' | append: ryear %}
+{% if site.data[scopedinfoname] %}
+{% assign linkinfo = site.data[scopedinfoname]  %}
+{% else %}
+{% assign linkinfo = site.data.links  %}
+{% endif %}
+
+{% assign    scopedinfoname = 'materiale-' | append: ryear %}
+{% if site.data[scopedinfoname] %}
+{% assign materialinfo = site.data[scopedinfoname]  %}
+{% else %}
+{% assign materialinfo = site.data.materiale  %}
+{% endif %}
+
+{% assign    scopedinfoname = 'software-' | append: ryear %}
+{% if site.data[scopedinfoname] %}
+{% assign softwareinfo = site.data[scopedinfoname]  %}
+{% else %}
+{% assign softwareinfo = site.data.software  %}
+{% endif %}
+
+{% assign    scopedinfoname = 'extras-' | append: ryear %}
+{% if site.data[scopedinfoname] %}
+{% assign extrainfo = site.data[scopedinfoname]  %}
+{% else %}
+{% assign extrainfo = site.data.extras  %}
+{% endif %}
