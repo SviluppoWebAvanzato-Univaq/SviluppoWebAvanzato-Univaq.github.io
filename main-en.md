@@ -18,8 +18,8 @@ redirect_from:
  </ol>
 
 
-## Textbooks  {#testi}
 {% if courseinfo.testi %}
+## Textbooks  {#testi}
 {% assign a =  courseinfo.testi | where_exp: "testo","testo.lingua == language" %}
 <ul>
 {% for testo in a %}<li> <em>{{ testo.autori }}</em>, {{ testo.titolo }}, {{ testo.editore }}   

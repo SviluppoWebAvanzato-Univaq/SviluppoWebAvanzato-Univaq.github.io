@@ -5,11 +5,6 @@
 	"icon": "bi-card-list"
   },
   {
-    "label": "Textbooks",
-    "url": "/en/info.html#testi",
-	"icon": "bi-book"
-  },
-  {
     "label": "Slides",
     "url": "/en/materiale.html#slides",
 	"icon": "bi-easel"

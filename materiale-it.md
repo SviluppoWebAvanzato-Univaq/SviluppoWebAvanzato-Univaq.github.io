@@ -9,7 +9,7 @@ permalink: /it/materiale.html
 
 ## Materiale Didattico
 
-> Questo materiale, mostrato o sviluppato durante le lezioni, è dedicato agli studenti del corso di Ingegneria del Web.
+> Questo materiale, mostrato o sviluppato durante le lezioni, è dedicato agli studenti di questo corso.
 Visto che la conoscenza *deve* essere considerata un patrimonio di tutti, il mio materiale didattico è a disposizione di
 chiunque voglia servirsene per studiare la materia. Tuttavia, il materiale *non può essere usato, neppure in parte, per altri scopi o in altri corsi* senza il mio esplicito consenso e senza citare la provenienza del materiale stesso. 
 

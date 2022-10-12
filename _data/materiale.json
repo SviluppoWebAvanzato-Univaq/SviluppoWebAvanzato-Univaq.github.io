@@ -31,7 +31,7 @@
       "nome": {
         "it": "Applicazioni base JAX-RS", "en":"JAX-RS base applications"
       },
-      "url": "https://github.com/orgs/WebEngineering-Univaq/repositories?q=JAXRS_Base&type=all&language=&sort=name",
+      "url": "https://github.com/orgs/SviluppoWebAvanzato-Univaq/repositories?q=JAXRS_Base&type=all&language=&sort=name",
       "commento": {
         "it": "Un progetto contenente la struttura di base di una RESTful API sviluppata con JAX-RS",
         "en": "A project with the base structure of any RESTful API developed with JAX-RS"
@@ -41,7 +41,7 @@
       "nome": {
         "all": "jQuery"
       },
-      "url": "https://github.com/orgs/WebEngineering-Univaq/repositories?q=JQ_&type=all&language=&sort=name",
+      "url": "https://github.com/orgs/SviluppoWebAvanzato-Univaq/repositories?q=JQ_&type=all&language=&sort=name",
       "commento": {
         "it": "Una serie di applicazioni di esempio basate su jQuery",
         "en": "A collection of jQuery-based example applications"
