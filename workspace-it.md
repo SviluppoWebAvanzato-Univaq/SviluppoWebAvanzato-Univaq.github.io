@@ -19,7 +19,11 @@ Nel nostro corso utilizzeremo tre software principali:
 - Tomcat (<https://tomcat.apache.org/>), il web server Java,
 - la JDK (<https://jdk.java.net/>), su cui gireranno entrambi i programmi di cui sopra.
 
-Purtroppo questi tre software, soprattutto la JDK, sono soggetti a continui aggiornamenti, che oltre a
+Inoltre, utilizzeremo
+- Postman (<https://www.postman.com/>) per testare i servizi RESTful,
+- Swagger Editor (<https://editor.swagger.io/>) per scrivere in maniera assistita le specifiche OpenAPI.
+
+Purtroppo questi software, soprattutto la JDK, sono soggetti a continui aggiornamenti, che oltre a
 correggere problemi e aggiungere funzionalità possono, talvolta, introdurre nuovi bug
 e incompatibilità rispetto agli esempi presentati durante il corso, che si basano
 su una precisa combinazione di versioni testata e "certificata" *prima*
@@ -80,6 +84,8 @@ Ricordate di salvare il file netbeans.conf al termine delle modifiche.
    - netbeans_default_userdir="\<D\>/nb_userdir"
    - netbeans_default_cachedir="\<D\>/nb_cachedir"
    - netbeans_jdkhome="\<D\>/jdk-JV"
+6.	Potete installare **Postman** globalmente (<https://www.postman.com/downloads/>) oppure, se preferite anche in questo caso tenerlo isolato nel vostro spazio di lavoro per il corso, scaricate la versione standalone realizzata dal progetto *PortApps* (<https://portapps.io/app/postman-portable/#download>)  per il vostro sistema operativo. **Scegliete la versione senza installer (archivio 7z)** ed espandetela in all’interno di \<D\>/postman.
+7.	Per quel che riguarda lo **Swagger** editor, si tratta di un’applicazione web che potete usare online oppure, se volete, potete clonarla dal repository GitHub per usarla offline. Basterà clonare il repository <https://github.com/swagger-api/swagger-editor> in \<D\>/swagger e poi aprire index.html per avviare la vostra copia locale.
 
 ## Primo Avvio dell'IDE
 

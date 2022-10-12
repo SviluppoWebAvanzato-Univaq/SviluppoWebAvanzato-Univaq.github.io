@@ -17,7 +17,11 @@ In our course, we will make use of three main software applications:
 - Tomcat (<https://tomcat.apache.org/>), the Java web server,
 - the JDK (<https://jdk.java.net/>), on which both the above programs will run.
 
-Unfortunately, these three softwares, especially the JDK, are subject to continuous updates, which in addition to
+Morevoer, we will use
+- Postman (<https://www.postman.com/>) to test RESTful services,
+- Swagger Editor (<https://editor.swagger.io/>) to assist us in writing OpenAPI specifications.
+
+Unfortunately, these softwares, especially the JDK, are subject to continuous updates, which in addition to
 fixing bugs and adding features can sometimes introduce new bugs
 and incompatibilities with the examples shown during the lactures that are based
 on a specific combination of versions, tested and "certified" *before*
@@ -74,7 +78,9 @@ Remember to save the netbeans.conf file when you are done making changes.
    - netbeans_default_userdir = "\<D\>/nb_userdir"
    - netbeans_default_cachedir = "\<D\>/nb_cachedir"
    - netbeans_jdkhome = "\<D\>/jdk-JV"
-
+6. You can install **Postman** globally (<https://www.postman.com/downloads/>) or, if you prefer to keep it isolated in your course workspace, download the standalone version made by the *PortApps* project (<https://portapps.io/app/postman-portable/#download>) for your operating system. **Choose the version without installer (7z archive)** and expand it in within \<D\>/postman.
+7. As for the **Swagger** editor, it is a web application that you can use online or, if you want, you can clone it from the GitHub repository to use it offline. Simply clone the repository <https://github.com/swagger-api/swagger-editor> to \<D\>/swagger and then open index.html to start your local copy.   
+   
 ## First Launch of the IDE
 
 6. At this point, you can **run Netbeans** using the launchers
