@@ -61,4 +61,15 @@ and set-up all the required software
 {% endif %}</li>{% endfor %}
 </ul>
 {% endif %}
-  
+
+
+{% if courseinfo.testi %}
+## Textbooks  {#testi}
+{% assign a =  courseinfo.testi | where_exp: "testo","testo.lingua == language" %}
+<ul>
+{% for testo in a %}<li> <em>{{ testo.autori }}</em>, {{ testo.titolo }}, {{ testo.editore }}   
+{% if testo.commento[language] %}   <br/><em>{{ testo.commento[language] }}</em>
+{% elsif testo.commento['all'] %}   <br/><em>{{ testo.commento['all'] }}</em> 
+{% endif %}</li>{% endfor %}
+</ul>
+{% endif %}

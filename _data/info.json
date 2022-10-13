@@ -9,9 +9,11 @@
       "fine": "17"
     }
   },
-  
-
-  
+  "obiettivi": {"it":"Il corso si propone di fornire conoscenze avanzate su alcuni argomenti rilevanti per lo sviluppo di applicazioni web moderne", "en":"The course aims to provide advanced knowledge of some relevant arguments in the development of modern web applications"},
+  "prerequisiti": {"it":"Conoscenza di base dei linguaggi e delle tecnologie di base per lo sviluppo web, buona conoscenza della programmazione Java e Javascript","en":"Base knowledge of the basic web development languages and technologies, good knowledge of Java and Javascript programming"},
+  "lezioni":{"it":"Le lezioni sono di carattere teorico e pratico, e prevedono lo sviluppo interattivo di esempi in aula; gli studenti sono incoraggiati a partecipare alle lezioni facendo domande e discutendo le soluzioni adottate negli esempi sviluppati",
+  "en":"Lectures are both theoretical and practical, and include the interactive development of examples; students are encouraged to participate to the lectures by making questions and discussing the solutions adopted in the developed examples"},
+  "esame":{"it":"La valutazione finale prevede lo sviluppo (in gruppo) di un progetto e un’eventuale prova orale (individuale). Il progetto consiste in un'applicazione web che sfrutta una o più delle tecnologie avanzate illustrate nel corso. La prova orale parte dalla discussione del progetto e ha lo scopo di verificare il livello collaborazione nel gruppo e il contributo individuale al progetto","en":"The final evaluation involves the development of a project (in group) and a possible oral exam (individual). The project to be developed consists of a web application that exploits one or more of the advanced technologies shown in the course. The oral exam starts from the discussion of the project and aims to verify the achieved level of teamwork and the individual contribution to the project"},  
   "sillabo": [
       [
 		{"it": "Dalle applicazioni web ai servizi Web: i servizi web RESTful",

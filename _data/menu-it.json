@@ -1,8 +1,8 @@
 [
   {
-    "label": "Sillabo",
-    "url": "/it/info.html#sillabo",
-	"icon": "bi-card-list"
+    "label": "Informazioni",
+    "url": "/it/info.html",
+	"icon": "bi-info-circle"
   },
   {
     "label": "Slides",

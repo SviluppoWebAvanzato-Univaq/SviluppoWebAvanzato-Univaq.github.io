@@ -1,8 +1,8 @@
 [
   {
-    "label": "Syllabus",
-    "url": "/en/info.html#sillabo",
-	"icon": "bi-card-list"
+    "label": "Information",
+    "url": "/en/info.html",
+	"icon": "bi-info-circle"
   },
   {
     "label": "Slides",
