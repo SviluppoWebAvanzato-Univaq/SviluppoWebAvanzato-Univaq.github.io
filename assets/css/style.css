@@ -93,6 +93,10 @@ header a:hover, header a:active, a.nav-link:hover, a.nav-link:active, footer a:h
   color: #FDFDFB;
 }
 
+header .nav-pills a.nav-link.active {
+	background-color: transparent;
+}
+
 header .nav-pills a.nav-link.active::after {
 	font-family: bootstrap-icons !important;
 	font-style: normal;

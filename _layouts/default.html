@@ -24,7 +24,7 @@
 	<div class="sidebar col-sm-3 col-12">
 	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
       <a name="top"/>
-	  <header class="sticky-md-top">
+	  <header class="sticky-md-top clearfix">
 	  
         <h1 class="header"><a href="/{{language}}/info">{{ courseinfo.nome }}</a></h1>
         <p class="header">{% if courseinfo.descrizione[language] %}   {{ courseinfo.descrizione[language] }}{% elsif courseinfo.descrizione['all'] %}   {{ courseinfo.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
