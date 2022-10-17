@@ -38,7 +38,7 @@ blockquote {
 }
 
 .sidebar {
-	min-width: 240px;
+	min-width: 16rem;
 }
 
 .sidebar img {
