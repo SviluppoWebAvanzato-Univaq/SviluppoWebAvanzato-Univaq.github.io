@@ -24,7 +24,7 @@ permalink: /en/risorse.html
 
 ### Other Resources {#links}
 
-> Unordered and often not updated collection of useful links to study and deepen your knowledge aboutthe course topics
+> Unordered and often not updated collection of useful links to study and deepen your knowledge about the course topics
 
 <ul>
 {% for s in linkinfo %}<li> 

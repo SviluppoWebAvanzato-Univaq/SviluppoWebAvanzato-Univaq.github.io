@@ -13,7 +13,6 @@ permalink: /it/info.html
 </blockquote>
 {% endif %}
 
-
 ## Sillabo {#sillabo}
 
 {% assign a =  courseinfo.sillabo  %}
