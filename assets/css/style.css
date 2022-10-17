@@ -75,8 +75,13 @@ header h1 {
 header .nav {
 	background-color: #166079;
 	border: 1px solid #166079;
-	border-radius: 4px;
+	border-radius: 4px;	
+	clear: both;
 	
+}
+
+header .menu {
+	clear: both;	
 }
 
 
@@ -86,6 +91,39 @@ header a,header a:visited,header a:link, a.nav-link, a.nav-link:visited,  a.nav-
 
 header a:hover, header a:active, a.nav-link:hover, a.nav-link:active, footer a:hover, footer a:active {
   color: #FDFDFB;
+}
+
+header .nav-pills a.nav-link.active::after {
+	font-family: bootstrap-icons !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content:'\F136';
+	float:right;
+}
+
+#menutoggle {
+	float: right;
+	margin-bottom: 1rem;	
+}
+
+#menutoggle::after {
+	font-family: bootstrap-icons !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content:'\F148';
+	float:right;
+}
+
+#menutoggle.collapsed::after {
+	content:'\F128';
 }
 
 #totop {

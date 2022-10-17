@@ -7,6 +7,8 @@ $(function() {
 			$('#totop').fadeOut(200); 
 		}
 	});
+	
+	$("#menutoggle").on("click",function(){$("#menu1").toggleClass("d-none"); $(this).toggleClass("collapsed");});
 });
 
 

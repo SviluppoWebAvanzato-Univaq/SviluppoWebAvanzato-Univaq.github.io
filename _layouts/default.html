@@ -29,11 +29,16 @@
         <h1 class="header"><a href="/{{language}}/info">{{ courseinfo.nome }}</a></h1>
         <p class="header">{% if courseinfo.descrizione[language] %}   {{ courseinfo.descrizione[language] }}{% elsif courseinfo.descrizione['all'] %}   {{ courseinfo.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
 
+
+		<a id="menutoggle" class="d-sm-none btn btn-sm collapsed" href="#" role="button" aria-controls="menu1">Menu</a>				
+		<div id="menu1" class="menu d-none d-sm-block" >
+
 {% assign menufile = 'menu-' | append: language %}
 {% if site.data[menufile] %}
 		<ul class="nav mb-1 flex-row flex-sm-column nav-pills">
 		{% for item in site.data[menufile] %}
-		<li class="nav-item"><a  class="nav-link" href="{{ item.url }}">
+		{% assign itemurlseg = item.url | split: '#' %}
+		<li class="nav-item"><a  class="nav-link {% if itemurlseg[0]==page.url  %} active {% endif %}" href="{{ item.url }}">		
 		{% if item.icon %}<span class="bi {{item.icon}}"></span>&nbsp;{% endif %}{{ item.label }}</a></li>
 		{% endfor %}
 		</ul>
@@ -63,8 +68,9 @@
 			<li class="nav-item"><a  class="nav-link" href="/en/{{page.url | slice: 4,5000}}"><span class="bi bi-translate"></span>&nbsp;In English</a></li>
 		{% endif %}
 		</ul>
-      </header>
-	        </div>
+	</div>
+    </header>
+ </div>
 			
       <section class="py-sm-5 col">
        
@@ -89,6 +95,7 @@
 	  </div>
     </div>
   <a id="totop" href="#top"><i class="bi bi-chevron-double-up"></i></a>
+  <script src="{{ '/assets/js/bootstrap.min.js?v=' | append: site.github.build_revision | relative_url }}">/* */</script>	
   <script src="{{ '/assets/js/scripts.js?v=' | append: site.github.build_revision | relative_url }}">/* */</script>
   </body>
 </html>
