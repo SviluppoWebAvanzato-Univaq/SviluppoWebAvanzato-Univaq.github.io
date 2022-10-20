@@ -1,6 +1,9 @@
 {
   "nome": "Sviluppo Web Avanzato",
-  "descrizione": {"it":"Corso di Sviluppo Web Avanzato, Università dell'Aquila","en":"Sviluppo Web Avanzato course, University of L'Aquila"},
+  "descrizione": {
+    "it": "Corso di Sviluppo Web Avanzato, Università dell'Aquila",
+    "en": "Sviluppo Web Avanzato course, University of L'Aquila"
+  },
   "contatti": {
     "email": "giuseppe.dellapenna@univaq.it",
     "ricevimento": {
@@ -9,29 +12,57 @@
       "fine": "17"
     }
   },
-  "obiettivi": {"it":"Il corso si propone di fornire conoscenze avanzate su alcuni argomenti rilevanti per lo sviluppo di applicazioni web moderne", "en":"The course aims to provide advanced knowledge of some relevant arguments in the development of modern web applications"},
-  "prerequisiti": {"it":"Conoscenza di base dei linguaggi e delle tecnologie di base per lo sviluppo web, buona conoscenza della programmazione Java e Javascript","en":"Base knowledge of the basic web development languages and technologies, good knowledge of Java and Javascript programming"},
-  "lezioni":{"it":"Le lezioni sono di carattere teorico e pratico, e prevedono lo sviluppo interattivo di esempi in aula; gli studenti sono incoraggiati a partecipare alle lezioni facendo domande e discutendo le soluzioni adottate negli esempi sviluppati",
-  "en":"Lectures are both theoretical and practical, and include the interactive development of examples; students are encouraged to participate to the lectures by making questions and discussing the solutions adopted in the developed examples"},
-  "esame":{"it":"La valutazione finale prevede lo sviluppo (in gruppo) di un progetto e un’eventuale prova orale (individuale). Il progetto consiste in un'applicazione web che sfrutta una o più delle tecnologie avanzate illustrate nel corso. La prova orale parte dalla discussione del progetto e ha lo scopo di verificare il livello collaborazione nel gruppo e il contributo individuale al progetto","en":"The final evaluation involves the development of a project (in group) and a possible oral exam (individual). The project to be developed consists of a web application that exploits one or more of the advanced technologies shown in the course. The oral exam starts from the discussion of the project and aims to verify the achieved level of teamwork and the individual contribution to the project"},  
+  "obiettivi": {
+    "it": "Il corso si propone di fornire conoscenze avanzate su alcuni argomenti rilevanti per lo sviluppo di applicazioni web moderne",
+    "en": "The course aims to provide advanced knowledge of some relevant arguments in the development of modern web applications"
+  },
+  "prerequisiti": {
+    "it": "Conoscenza di base dei linguaggi e delle tecnologie di base per lo sviluppo web, buona conoscenza della programmazione Java e Javascript",
+    "en": "Base knowledge of the basic web development languages and technologies, good knowledge of Java and Javascript programming"
+  },
+  "lezioni": {
+    "it": "Le lezioni sono di carattere teorico e pratico, e prevedono lo sviluppo interattivo di esempi in aula; gli studenti sono incoraggiati a partecipare alle lezioni facendo domande e discutendo le soluzioni adottate negli esempi sviluppati",
+    "en": "Lectures are both theoretical and practical, and include the interactive development of examples; students are encouraged to participate to the lectures by making questions and discussing the solutions adopted in the developed examples"
+  },
+  "esame": {
+    "it": "La valutazione finale prevede lo sviluppo (in gruppo) di un progetto e un’eventuale prova orale (individuale). Il progetto consiste in un'applicazione web che sfrutta una o più delle tecnologie avanzate illustrate nel corso. La prova orale parte dalla discussione del progetto e ha lo scopo di verificare il livello collaborazione nel gruppo e il contributo individuale al progetto",
+    "en": "The final evaluation involves the development of a project (in group) and a possible oral exam (individual). The project to be developed consists of a web application that exploits one or more of the advanced technologies shown in the course. The oral exam starts from the discussion of the project and aims to verify the achieved level of teamwork and the individual contribution to the project"
+  },
   "sillabo": [
-      [
-		{"it": "Dalle applicazioni web ai servizi Web: i servizi web RESTful",
-		"en": "From web applications to web services: RESTful web services"},
-		{"it": "Definizione di un servizio web RESTful",
-		"en": "Definition of a RESTful web service"},
-		{"it": "Introduzione di un servizio Web RESTful in un'applicazione Web esistente",
-		"en": " Introduction of a RESTful web service into an existing web application"},
-		{"it": " Servizi web RESTful sulla piattaforma Java: strumenti e tecnologie",
-		"en": " RESTful web services on the Java Platform: tools and technologies"},
-		{"it": " Servizi web RESTful sulla piattaforma PHP: strumenti e tecnologie",
-		"en": " RESTful web services on the PHP Platform: tools and technologies"},
-	],
-	[
-		{"it": "Sviluppo di applicazioni Web 2.0: programmazione di interfacce avanzate lato client con jQuery",
-		"en": "Developing true Web 2.0 applications: rich client-side programming with JQuery"},
-		{"it": "Sviluppo base di plugin per jQuery",
-		"en": "JQuery plugin development basics"}
-	]
-  ]  
+    {
+      "peso": 14,
+      "argomenti": [
+        {
+          "it": "Dalle applicazioni web ai servizi Web: i servizi web RESTful",
+          "en": "From web applications to web services: RESTful web services"
+        },
+        {
+          "it": "Modellazione di un servizio web RESTful tramite OpenAPI",
+          "en": "Modelling a RESTful web service with OpenAPI"
+        }
+      ]
+    },
+    {
+      "peso": 6,
+      "argomenti": [
+        {
+          "it": "Servizi web RESTful sulla piattaforma Java: strumenti e tecnologie",
+          "en": "RESTful web services on the Java Platform: tools and technologies"
+        },
+        {
+          "it": "Introduzione di un servizio Web RESTful in un'applicazione web esistente",
+          "en": "Introduction of a RESTful web service into an existing web application"
+        }
+      ]
+    },
+    {
+      "peso": 4,
+      "argomenti": [
+        {
+          "it": "Connettersi a un servizio RESTful con Java e Javascript (jQuery)",
+          "en": "Calling RESTful web services with Java and Javascript (jQuery)"
+        }
+      ]
+    }
+  ]
 }
