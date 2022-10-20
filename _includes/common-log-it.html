@@ -86,7 +86,12 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% assign nl = nl | plus: 1 %}
 <h3><a name="#L{{ nl }}"/>Lezione {{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
 {% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</h3>
-<p><small><em>{{ lezione.date | date: "%d/%m/%Y, ore %H:%M" }} ({{ lezione.duration }} ore)</em></small></p>
+<p><small><em>{{ lezione.date | date: "%d/%m/%Y, ore %H:%M" }} ({{ lezione.duration }} ore)
+{% if lezione.video %}
+ - <a href="{{ lezione.video }}">registrazione della lezione disponibile</a>
+{% endif %}
+</em></small></p>
+
 <ul>
 {% assign na = 0 %}
 {% for argomento in lezione.arguments %}

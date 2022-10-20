@@ -84,9 +84,14 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% for lezione in log %}
 {% unless lezione.show == false %} 
 {% assign nl = nl | plus: 1 %}
-<h3><a name="#L{{ nl }}"/>{{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
+<h3><a name="#L{{ nl }}"/>Lecture {{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
 {% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</h3>
-<p><small><em>{{ lezione.date | date: "%Y-%m-%d, %H:%M" }} ({{ lezione.duration }} hours)</em></small></p>
+<p><small><em>{{ lezione.date | date: "%Y-%m-%d, %H:%M" }} ({{ lezione.duration }} hours)
+{% if lezione.video %}
+ - <a href="{{ lezione.video }}">lecture recording available</a>
+{% endif %}
+</em></small></p>
+
 <ul>
 {% assign na = 0 %}
 {% for argomento in lezione.arguments %}
