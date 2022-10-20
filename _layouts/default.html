@@ -28,8 +28,7 @@
 	  
         <h1 class="header"><a href="/{{language}}/info">{{ courseinfo.nome }}</a></h1>
         <p class="header">{% if courseinfo.descrizione[language] %}   {{ courseinfo.descrizione[language] }}{% elsif courseinfo.descrizione['all'] %}   {{ courseinfo.descrizione['all'] }}{% else %}{{ site.description }}{% endif %}.</p>
-
-
+		
 		<a id="menutoggle" class="d-sm-none btn btn-sm collapsed" href="#" role="button" aria-controls="menu1">Menu</a>				
 		<div id="menu1" class="menu d-none d-sm-block" >
 
@@ -82,13 +81,15 @@
       <div class="col-12">
 	  <footer>
   {% if language == 'it' %}
-	  	          <p ><strong>Docente: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
-  	            	          <p ><strong>Email docente:</strong> giuseppe.dellapenna@univaq.it</p>
-  	                  <p ><strong>Ricevimento studenti: </strong> Mercoledì,15-17 <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
+  <p><small>{% if courseinfo.codice %}<strong>Codice corso:</strong> {{ courseinfo.codice }}{% endif %} {% if courseinfo.team %}<strong>Codice team del corso:</strong> {{ courseinfo.team }}{% endif %}</small></p>
+	  	          <p ><strong>Docente: </strong> <a href="{{ courseinfo.docente.url }}">{{ courseinfo.docente.nome }}</a></p>  	            	  
+  	              <p><strong>Ricevimento studenti docente: </strong> {{ courseinfo.docente.ricevimento['it' }} <em>(E’ consigliabile contattare preventivamente il docente per concordare le modalità del ricevimento</em>)</p>
+				<p><strong>Email docente:</strong> {{ courseinfo.docente.email }}</p>
 		{% else %}
-	      <p ><strong>Teacher: </strong> <a href="https://www.disim.univaq.it/GiuseppeDellaPenna">Giuseppe Della Penna</a></p>
-       <p ><strong>Office Hours: </strong> Wednesday,15-17 <em>(Please contact the teacher in advance to agree the meeting modality</em>)</p>
-	<p ><strong>Teacher Email:</strong> giuseppe.dellapenna@univaq.it</p>
+		<p><small>{% if courseinfo.codice %}<strong>Course code:</strong> {{ courseinfo.codice }}{% endif %} {% if courseinfo.team %}<strong>Course team code:</strong> {{ courseinfo.team }}{% endif %}</small></p>
+	      <p ><strong>Teacher: </strong> <a href="{{ courseinfo.docente.url }}">{{ courseinfo.docente.nome }}</a></p>
+       <p ><strong>Teacher Office Hours: </strong> {{ courseinfo.docente.ricevimento['en' }} <em>(Please contact the teacher in advance to agree the meeting modality</em>)</p>
+	<p ><strong>Teacher Email:</strong> {{ courseinfo.docente.email }}</p>
 	{% endif %}
       </footer>
 	  </div>

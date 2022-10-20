@@ -1,15 +1,17 @@
 {
   "nome": "Sviluppo Web Avanzato",
+  "codice":"DT0180",
   "descrizione": {
     "it": "Corso di Sviluppo Web Avanzato, Università dell'Aquila",
-    "en": "Sviluppo Web Avanzato course, University of L'Aquila"
+    "en": "Advanced Web Development course, University of L'Aquila"
   },
-  "contatti": {
+  "docente": {
+	"nome":"Giuseppe Della Penna",
+	"url":"https://www.disim.univaq.it/GiuseppeDellaPenna",
     "email": "giuseppe.dellapenna@univaq.it",
     "ricevimento": {
-      "giorno": "3",
-      "inizio": "15",
-      "fine": "17"
+      "it":"Mercoledì, 15-17",
+	  "en":"Wednesday, 15-17"
     }
   },
   "obiettivi": {
