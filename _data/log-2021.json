@@ -1,0 +1,1147 @@
+[
+ {
+  "date": "2022-03-04T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Course presentation",
+    "it": "Presentazione del corso"
+   },
+   {
+    "en": "Course topics: RESTful web services",
+    "it": "Presentazione degli argomenti: RESTful web services"
+   },
+   {
+    "en": "RESTful services as an extension to standard web applications",
+    "it": "I servizi RESTful come estensione delle applicazioni web standard",
+    "type": "esempio"
+   },
+   {
+    "en": "RESTful services as a base for client-side applications like SPA (Angular, etc.)",
+    "it": "I servizi RESTful come elemento base delle applicazioni fortemente client side come le SPA (Angular, ecc.)",
+    "type": "esempio"
+   },
+   {
+    "en": "RESTful services as a base for hybrid modile apps (Cordova, etc.)",
+    "it": "I servizi RESTful come elemento base delle applicazioni mobili ibride (Cordova, ecc.)",
+    "type": "esempio"
+   },
+   {
+    "en": "Course topics: JQuery",
+    "it": "Presentazione degli argomenti: JQuery"
+   },
+   {
+    "en": "JQuery as a fundamental element for Javascript crossbrowser programming",
+    "it": "JQuery come elemento essenziale per la programmazione crossbrowser in Javascript",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery as an helper in writing rich client-side interfaces",
+    "it": "JQuery come elemento di aiuto nella realizzazione di interfacce ricche lato client",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery is a low-level library! Isn't it better to employ, e.g., Angular to build a RIA?",
+    "it": "JQuery è comunque una libreria di basso livello! Non è meglio, ad esempio, usare Angular per realizzare una RIA?",
+    "type": "esempio"
+   },
+   {
+    "ref": "Slides Web Services Architecture",
+    "en": "Web services and Web 2.0",
+    "it": "I Web services nel Web 2.0"
+   },
+   {
+    "en": "What web services really are?",
+    "it": "Cosa sono i web services veramente?"
+   },
+   {
+    "en": "What is the role of web services in web 2.0?",
+    "it": "Che ruolo giocano i web services nel web 2.0?"
+   },
+   {
+    "en": "Analysis of some services published by the Public Administration on the web",
+    "it": "Analisi di servizi pubblicati su web dalla PA",
+    "type": "esempio"
+   },
+   {
+    "en": "An example of real web services: Amazon",
+    "it": "Un esempio di veri web services: Amazon",
+    "type": "esempio"
+   },
+   {
+    "en": "Making the Public Administration services real web services",
+    "it": "Realizzare i servizi della PA come veri web services",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "Introduction to (RESTful) web services",
+   "it": "Introduzione ai (RESTful) web services"
+  }
+ },
+ {
+  "date": "2022-03-11T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "The REST paradigm",
+    "it": "Il paradigma REST"
+   },
+   {
+    "ref": "Slides Restful",
+    "en": "Web services with REST paradigm: RESTful web services",
+    "it": "I servizi web con paradigma REST: RESTful web services"
+   },
+   {
+    "en": "Basic features of a RESTful service: protocols, formats, methods",
+    "it": "Caratteristiche di base di un servizio RESTful: protocolli, formati, metodi invocabili"
+   },
+   {
+    "en": "Semantics of a RESTful web service: what kind of application it is best suited for?",
+    "it": "Semantica di un servizio web RESTful: a quali tipi di applicazione si adatta meglio?"
+   },
+   {
+    "en": "RESTful services URL structure",
+    "it": "Struttura delle URL in un servizio RESTful"
+   },
+   {
+    "en": "Mapping resources to URLs: the basic collection-item structure",
+    "it": "Mappare le risorse sulle URL: la struttura di base collection-item"
+   },
+   {
+    "en": "Mapping relational structures to RESTful URLs",
+    "it": "Mappare strutture relazionali su URL RESTful",
+    "type": "esempio"
+   },
+   {
+    "en": "CRUD RESTful operations: the GET mathod",
+    "it": "Operazioni CRUD via RESTful: il metodo GET"
+   },
+   {
+    "en": "GET on collections: SELECT",
+    "it": "GET su collezioni: SELECT",
+    "type": "esempio"
+   },
+   {
+    "en": "GET on collections with a query string: SELECT * WHERE",
+    "it": "GET su collezioni con query string: SELECT * WHERE",
+    "type": "esempio"
+   },
+   {
+    "en": "Encoding of  data returned by a GET and the Accept/Content-Type headers",
+    "it": "La codifica dei dati restituiti da una GET e gli header Accept/Content-Type"
+   },
+   {
+    "en": "The return value of GET on collections: records or keys  list?",
+    "it": "Il valore di ritorno delle GET su collezioni: lista di record o di sole chiavi?"
+   },
+   {
+    "en": "GET on collections: use of the query string to create a LIMIT clause",
+    "it": "GET su collezioni: usare la query string per simulare la clausola LIMIT",
+    "type": "esempio"
+   },
+   {
+    "en": "GET on item: SELECT * WHERE id = ...",
+    "it": "GET su item: SELECT * WHERE id=...",
+    "type": "esempio"
+   },
+   {
+    "en": "GET on attributes: SELECT a WHERE id = ...",
+    "it": "GET su attributi: SELECT a WHERE id=...",
+    "type": "esempio"
+   },
+   {
+    "en": "GET: HTTP return status",
+    "it": "GET: stati HTTP di ritorno"
+   },
+   {
+    "en": "CRUD RESTful operations: the PUT method",
+    "it": "Operazioni CRUD via RESTful: il metodo PUT"
+   },
+   {
+    "en": "PUT on item: global UPDATE of a specific record",
+    "it": "PUT su item: UPDATE globale su uno specifico record",
+    "type": "esempio"
+   },
+   {
+    "en": "The payload of the PUT method and the Content-Type header",
+    "it": "Il payload del metodo PUT e l'header Content-Type"
+   },
+   {
+    "en": "PUT on attributes: UPDATE pf individual attributes of a specific record",
+    "it": "PUT su attributi: UPDATE di singoli attributi di uno specifico record",
+    "type": "esempio"
+   },
+   {
+    "en": "PUT on collections: replacement of an entire collection",
+    "it": "PUT su collezioni: sostituzione di un'intera collezione",
+    "type": "esempio"
+   },
+   {
+    "en": "PUT: HTTP return status",
+    "it": "PUT: stati HTTP di ritorno"
+   },
+   {
+    "en": "CRUD RESTful operations: the PATCH method",
+    "it": "Operazioni CRUD via RESTful: il metodo PATCH"
+   },
+   {
+    "en": "PATCH on item: partial UPDATE of a specific record",
+    "it": "PATCH su item: UPDATE parziale su uno specifico record",
+    "type": "esempio"
+   },
+   {
+    "en": "Extension of PUT semantics in environments not supporting the PATCH",
+    "it": "Estensione della semantica PUT in ambienti che non supportano la PATCH"
+   }
+  ],
+  "title": {
+   "en": "RESTful services semantics",
+   "it": "La semantica dei servizi RESTful"
+  }
+ },
+ {
+  "date": "2022-03-18T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "CRUD RESTful operations: the  POST method",
+    "it": "Operazioni CRUD via RESTful: il metodo POST"
+   },
+   {
+    "en": "POST on collections: INSERT of a new record",
+    "it": "POST su collezioni: INSERT di un nuovo record",
+    "type": "esempio"
+   },
+   {
+    "en": "The payload of the POST method and the Content-Type header",
+    "it": "Il payload del metodo POST e l'header Content-Type"
+   },
+   {
+    "en": "POST: HTTP return status and values",
+    "it": "POST: stati HTTP e valori di ritorno"
+   },
+   {
+    "en": "CRUD RESTful operations: the DELETE method",
+    "it": "Operazioni CRUD via RESTful: il metodo DELETE"
+   },
+   {
+    "en": "DELETE on item: DELETE of a specific record",
+    "it": "DELETE su item: DELETE di un record specifico",
+    "type": "esempio"
+   },
+   {
+    "en": "DELETE on collections: emptying a table",
+    "it": "DELETE su collezioni: svuotamento di una tabella",
+    "type": "esempio"
+   },
+   {
+    "en": "DELETE: HTTP return status",
+    "it": "DELETE: stati HTTP di ritorno"
+   },
+   {
+    "en": "Other HTTP methods: HEAD, OPTIONS",
+    "it": "Altri metodi HTTP: HEAD, OPTIONS"
+   },
+   {
+    "en": "HEAD on resource: availability check",
+    "it": "HEAD su risorsa: controllo sull'esistenza",
+    "type": "esempio"
+   },
+   {
+    "en": "HEAD used to control resource caching",
+    "it": "HEAD usato per il caching delle risorse",
+    "type": "esempio"
+   },
+   {
+    "en": "OPTIONS on a resource: allowed methods check",
+    "it": "OPTIONS su risorsa: controllo sui metodi supportati",
+    "type": "esempio"
+   },
+   {
+    "en": "The same-origin-policy issue for services",
+    "it": "Il problema della same-origin-policy per i servizi"
+   },
+   {
+    "en": "How to grant access to  RESTful services from outside (their domain): CORS",
+    "it": "Permettere l'accesso ai propri servizi RESTful dall'esterno (del loro dominio): CORS"
+   },
+   {
+    "en": "OPTIONS and CORS",
+    "it": "OPTIONS e CORS",
+    "type": "esempio"
+   },
+   {
+    "en": "RESTful RMI-type operations",
+    "it": "Operazioni di tipo RMI via RESTful"
+   },
+   {
+    "en": "How to specify an object (context) and a method to be invoked thorugh an URL",
+    "it": "Specificare un oggetto (contesto) e un metodo da invocare tramite una URL",
+    "type": "esempio"
+   },
+   {
+    "en": "The POST method used to make an RMI",
+    "it": "Il metodo POST utilizzato per effettuare una RMI"
+   },
+   {
+    "en": "Encoding the parameters and the return value of a method invoked via POST",
+    "it": "Codifica dei parametri e del valore di ritorno di un metodo invocato tramite POST"
+   },
+   {
+    "en": "Payload and result for the POST method: Accept and Content-Type header",
+    "it": "Payload e risultato del metodo POST: header Accept e Content-Type"
+   },
+   {
+    "en": "POST for RMI: HTTP return status",
+    "it": "POST per RMI: stati HTTP di ritorno"
+   },
+   {
+    "en": "RESTful RMI-type operations: GET for read methods (calculated attributes)",
+    "it": "Operazioni di tipo RMI via RESTful: usare GET per metodi di lettura (attributi calcolati)",
+    "type": "esempio"
+   },
+   {
+    "en": "The POST method as an alternative to  GET on collections to define complex filters",
+    "it": "Usare il metodo POST come alternativa alla GET su collezione per definire filtri complessi",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "RESTful services semantics",
+   "it": "La semantica dei servizi RESTful"
+  }
+ },
+ {
+  "date": "2022-03-25T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "The invoice case study",
+    "it": "Un pattern avanzato per le API RESTful: l'asynchronous long running operation"
+   },
+   {
+    "en": "A RESTful API advanced pattern: asynchronous long running operations",
+    "it": "Il caso di studio fattura",
+    "type": "esempio"
+   },
+   {
+    "en": "Defining the JSON structures reuqired by a service (or inherit them from the code!)",
+    "it": "Definire le strutture JSON necessarie a un servizio (o ereditarle da codice!)"
+   },
+   {
+    "en": "Identifying the collection-item pattern within the API",
+    "it": "Identificare il pattern collection-item all'interno delle API"
+   },
+   {
+    "en": "Defining an  URL structure consistent with the API",
+    "it": "Definire una struttura di URL coerente con le API"
+   },
+   {
+    "en": "Outside the pattern: when violating the standard RESTful semantic helps us to be more efficient",
+    "it": "Fuori dal pattern: quando violare la semantica standard RESTful ci aiuta a essere più efficienti"
+   },
+   {
+    "en": "Mapping methods and payloads on the URLs",
+    "it": "Mappare metodi e payload sulle URL"
+   },
+   {
+    "en": "The invoice case study RESTful API",
+    "it": "La RESTful API per il caso di studio fattura",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "RESTful services: a first case study",
+   "it": "Progettazione di un servizio RESTful"
+  }
+ },
+ {
+  "date": "2022-04-01T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Security in RESTful APIs",
+    "it": "Sicurezza nelle API RESTful"
+   },
+   {
+    "en": "The role of the access token in API security",
+    "it": "Il ruolo del token di accesso nella sicurezza delle API"
+   },
+   {
+    "en": "How to exchange the access token: from base methods (query string, path) to Bearer Authorization",
+    "it": "Come scambiarsi il token di accesso: dai metodi rudimentali (query string, path) alla Bearer Authorization"
+   },
+   {
+    "en": "Managing the expiration and refreshing access tokens",
+    "it": "Gestire la scadenza e il refresh dei token di accesso"
+   },
+   {
+    "en": "Generating access tokens: authentication schemes",
+    "it": "Generare i token di accesso: schemi di autenticazione"
+   },
+   {
+    "en": "How to implement the login/logout technique in a RESTful service",
+    "it": "Realizzare la tecnica del login/logout in un servizio RESTful"
+   },
+   {
+    "en": "OAuth: an advanced authentication system for services",
+    "it": "OAuth: un sistema di autenticazione particolarmente adatto ai servizi"
+   },
+   {
+    "ref": "Slides JSON Schema",
+    "en": "Introduction to JSON Schema",
+    "it": "Introduzione a JSON Schema"
+   },
+   {
+    "en": "JSON Schema: basic structure and annotations",
+    "it": "JSON Schema: struttura base e annotazioni"
+   },
+   {
+    "en": "JSON Schema: meaning of the empty schema and \"modeling by restrictions\"technique",
+    "it": "JSON Schema: significato della schema vuoto e tecnica della modellazione per restrizioni"
+   },
+   {
+    "en": "JSON Schema: data types",
+    "it": "JSON Schema: i tipi di dato"
+   },
+   {
+    "en": "JSON Schema: string type and its constraints",
+    "it": "JSON Schema: tipo stringa e relativi vincoli"
+   },
+   {
+    "en": "JSON Schema: numeric types and their constraints",
+    "it": "JSON Schema: tipi numerici e relativi vincoli"
+   },
+   {
+    "en": "JSON Schema: object type and property specification",
+    "it": "JSON Schema: tipo oggetto e specifica delle proprietà"
+   }
+  ],
+  "title": {
+   "en": "RESTful Security + JSON Schema 1",
+   "it": "Sicurezza RESTful + JSON Schema 1"
+  }
+ },
+ {
+  "date": "2022-04-08T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "JSON Schema: object type constraints",
+    "it": "JSON Schema: vincoli del tipo oggetto"
+   },
+   {
+    "en": "JSON Schema: array type and its constraints",
+    "it": "JSON Schema: tipo array e relativi vincoli"
+   },
+   {
+    "en": "JSON Schema: enumerations",
+    "it": "JSON Schema: enumerazioni"
+   },
+   {
+    "en": "JSON Schema: composition of schemas (allOf, anyOf, oneOf, not)",
+    "it": "JSON Schema: composizione di schemi (allOf, anyOf, oneOf, not)"
+   },
+   {
+    "en": "JSON Schema: references between schemas and modularization ($ref property)",
+    "it": "JSON Schema: riferimenti tra schemi e modularizzazione (proprietà $ref)"
+   },
+   {
+    "en": "\n\t\t\t The invoice data structure defined with JSON Schema \n\t\t",
+    "it": "La struttura dati fattura definita con JSON Schema",
+    "type": "esempio"
+   },
+   {
+    "en": "The YAML (meta) language",
+    "it": "Il (meta) linguaggio YAML"
+   },
+   {
+    "en": "Relationships between YAML and JSON",
+    "it": "Relazioni tra YAML e JSON"
+   },
+   {
+    "en": "YAML syntax: scalars, objects and arrays",
+    "it": "La sintassi YAML: scalari, oggetti e array"
+   }
+  ],
+  "title": {"all": "JSON Schema 2 + YAML"}
+ },
+ {
+  "date": "2022-04-22T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Introduction to OpenAPI 3",
+    "it": "Presentazione di OpenAPI 3"
+   },
+   {
+    "en": "OpenAPI: basic structure",
+    "it": "OpenAPI: struttura di base"
+   },
+   {
+    "en": "OpenAPI: info object",
+    "it": "OpenAPI: oggetto info"
+   },
+   {
+    "en": "OpenAPI: tags object",
+    "it": "OpenAPI: oggetto tags"
+   },
+   {
+    "en": "OpenAPI: externalDocs object",
+    "it": "OpenAPI: oggetto externalDocs"
+   },
+   {
+    "en": "OpenAPI: servers",
+    "it": "OpenAPI: servers"
+   },
+   {
+    "en": "OpenAPI: specification factorization and components object",
+    "it": "OpenAPI: fattorizzazione della specifica e oggetto components"
+   },
+   {
+    "en": "OpenAPI: schema components",
+    "it": "OpenAPI: componenti di tipo schema"
+   },
+   {
+    "en": "OpenAPI: parameter components",
+    "it": "OpenAPI:  componenti di tipo parameter "
+   },
+   {
+    "en": "OpenAPI: response components",
+    "it": "OpenAPI:  componenti di tipo response"
+   },
+   {
+    "en": "OpenAPI: requestBody components",
+    "it": "OpenAPI:  componenti di tipo requestBody "
+   },
+   {
+    "en": "OpenAPI: endpoints: basic structure of the paths object",
+    "it": "OpenAPI: specificare gli endpoint: struttura di base dell'oggetto paths"
+   },
+   {
+    "en": "OpenAPI: parametric URLs in the paths object",
+    "it": "OpenAPI: definire URL parametriche nell'oggetto paths"
+   },
+   {"type": "esempio"},
+   {
+    "en": "Discussion of the final project specifications",
+    "it": "Presentazione dei progetti di esame"
+   }
+  ],
+  "title": {"all": "OpenAPI 3 "}
+ },
+ {
+  "date": "2022-05-06T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "OpenAPI: endpoint parameters",
+    "it": "OpenAPI: definire i parametri di un endpoint (parameters)"
+   },
+   {
+    "en": "OpenAPI: response states and corresponding content (responses)",
+    "it": "OpenAPI: definire i possibili stati di risposta e associare il realtivo contenuto (responses)"
+   },
+   {
+    "en": "OpenAPI: request content (requestBody)",
+    "it": "OpenAPI: definire il contenuto delle richieste (requestBody)"
+   },
+   {
+    "en": "OpenAPI: securityScheme components",
+    "it": "OpenAPI:  componenti di tipo securityScheme "
+   },
+   {
+    "en": "OpenAPI: security requirements of an endpoint (security)",
+    "it": "OpenAPI: definire i requisiti di sicurezza di un endpoint (security)"
+   },
+   {
+    "ref": "Specifications_REST",
+    "en": "The invoice RESTful service specification with OpenAPI 3",
+    "it": "La specifica del servizio fattura con OpenAPI 3",
+    "type": "esempio"
+   },
+   {
+    "en": "JAX-RS dependencies in a Maven web application project",
+    "it": "Dipendenze JAX-RS in un progetto di web application con Maven"
+   },
+   {
+    "en": "Using Jackson as a JSON provider for JAX-RS",
+    "it": "Configurare Jackson come provider per JAX-RS"
+   },
+   {
+    "en": "Configuring JAX-RS with service providers and resources: the Application class and  @ApplicationPath annotation",
+    "it": "Configurare JAX-RS con le risorse e i provider necessari: la classe Application e l'annotazione @ApplicationPath"
+   },
+   {
+    "en": "Marking classes as (root) RESTful resources: the @Path annotation",
+    "it": "Marcare le classi come risorse (root) RESTful: l'annotazione @Path"
+   }
+  ],
+  "title": {"all": "JAX-RS"}
+ },
+ {
+  "date": "2022-05-13T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Marking class methods to answer HTTP methods: the @GET annotation",
+    "it": "Marcare i metodi di una classe per rispondere ai metodi HTTP: l'annotazione @GET"
+   },
+   {
+    "en": "RESTful output type for a method: the @Produces annotation",
+    "it": "Identificare il tipo RESTful di output di un metodo: l'annotazione @Produces"
+   },
+   {
+    "en": "JAX-RS method return types and automatic type conversion",
+    "it": "Tipi restituibili da JAX-RS e conversione automatica di tipo"
+   },
+   {
+    "en": "Automatic JSON encoding of complex return types: lists, objects",
+    "it": "Restituire tipo complessi con codifica automatica JSON: liste, oggetti"
+   },
+   {
+    "en": "Structure of Java objects to be automatically encoded and decoded in JSON",
+    "it": "Oggetti Java (de)codificabili in JSON: caratteristiche richieste"
+   },
+   {
+    "en": "The @JsonIgnore annotation used to exclude class fields from the JSON output",
+    "it": "L'annotazione @JsonIgnore per escludere campi dall'ouput"
+   },
+   {
+    "en": "Creating an advanced custom (de)serializer",
+    "it": "Creare un (de)serializzatore avanzato"
+   },
+   {
+    "en": "Creating a custom (de)serializer for specific classes: Calendar",
+    "it": "Creare un (de)serializzatore custom per classi specifiche: Calendar"
+   },
+   {
+    "en": "Using the Response type to control othe RESTful response status",
+    "it": "Usare il tipo Response per avere maggior controllo sulle risposte RESTful"
+   },
+   {
+    "en": "Returning status codes and building complex responses with the Response class",
+    "it": "Restituire codici di stato e costruire risposte complesse con la classe Response"
+   },
+   {
+    "en": "Handling and encapsulating exceptions: the WebApplicationException class",
+    "it": "Gestire e incapsulare le eccezioni: la classe WebApplicationException"
+   },
+   {
+    "en": "Handling exceptions: the ExceptionMapper class",
+    "it": "Gestire le eccezioni: la classe ExceptionMapper"
+   },
+   {
+    "en": "How to inject a query parameter in a method with the @QueryParam annotation",
+    "it": "Iniettare un parametro di query in quelli di un metodo con l'annotazione @QueryParam"
+   },
+   {
+    "en": "The @Path annotation on methods to identify sub-resources",
+    "it": "Uso dell'annotazione @Path sui metodi per identificare sotto-risorse"
+   },
+   {
+    "en": "The @Path annotation with parameters",
+    "it": "Uso dell'annotazione @Path con parti parametriche"
+   },
+   {
+    "en": "How to inject a URL parameter in a method with the @PathParam annotation",
+    "it": "Iniettare un parametro della URL in quelli di un metodo con l'annotazione @PathParam"
+   },
+   {
+    "en": "How to inject the JAX-RS context in a method: the @Context annotation",
+    "it": "Iniettare il contesto JAX-RS in un metodo: l'annotazione @Context"
+   },
+   {
+    "en": "Using the UriInfo class to generate URIs to internal resources of a REST application",
+    "it": "Usare la classe UriInfo per generare URI di risorse REST interne all'applicazione",
+    "type": "esempio"
+   },
+   {
+    "en": "Implementation of REST methods: the @POST annotation",
+    "it": "Implementazione dei metodi REST: l'annotazione @POST "
+   },
+   {
+    "en": "RESTful input type for a method: the @Consumes annotation",
+    "it": "Identificare il tipo RESTful di input di un metodo: l'annotazione @Consumes"
+   },
+   {
+    "en": "How to inject the request payload in a method",
+    "it": "Iniettare il payload di una richiesta in un metodo"
+   },
+   {
+    "en": "Data types for payloads: strings, numbers, InputStream",
+    "it": "Tipi di dati accettabili come payload: stringhe, numeri, InputStream"
+   },
+   {
+    "en": "Automatic Java bean decoding from a JSON payload",
+    "it": "Decodifica automatica di Java bean dal payload JSON"
+   },
+   {
+    "en": "Summary of JAX-RS techniques for single-class resources",
+    "it": "Riassunto delle tecniche utilizzabili con JAX-RS in una singola classe-risorsa"
+   },
+   {
+    "en": "Implementation of REST methods: the @DELETE annotation",
+    "it": "Implementazione dei metodi REST: l'annotazione @DELETE"
+   }
+  ],
+  "title": {"all": "JAX-RS /2"}
+ },
+ {
+  "date": "2022-05-20T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "Returning a binary download",
+    "it": "Restituire un binario da scaricare",
+    "type": "esempio"
+   },
+   {
+    "en": "Returning a stream: StreamingOutput",
+    "it": "Restituire uno stream: StreamingOutput"
+   },
+   {
+    "en": "A development pattern for RESTful services: sub-resources",
+    "it": "Un pattern di sviluppo per i servizi RESTful: le sotto-risorse"
+   },
+   {
+    "en": "Define and return a REST sub-resource with the @Path annotation",
+    "it": "Definire e restituire una sotto risorsa REST con l'annotazione @Path"
+   },
+   {
+    "en": "RESTful design with JAX-RS: when and how to use sub-resources?",
+    "it": "Progettazione RESTful con JAX-RS: quando e come utilizzare le sotto-risorse?"
+   },
+   {
+    "en": "RESTful API and authentication: returning an authentication token (authentication header, cookie or plain payload)",
+    "it": "Autenticazione in un'API RESTful: come restituire un token di autenticazione (header authentication, cookie o semplice payload"
+   },
+   {
+    "en": "How to define authentication-related annotations in JAX-RS",
+    "it": "Definire annotazioni associate alla sicurezza/autenticazione in JAX-RS"
+   },
+   {
+    "en": "Limit access to a RESTful method with an annotation",
+    "it": "Limitare l'accesso a un metodo RESTful con un'annotazione"
+   },
+   {
+    "en": "How to write a authentication filter in JAX-RS",
+    "it": "Scrivere un filtro di autenticazione in JAX-RS"
+   },
+   {
+    "en": "How to inject security information in a method",
+    "it": "Iniettare le informazioni di sicurezza in un metodo"
+   },
+   {
+    "en": "How to add CORS headers and handle preflight requests with a filter",
+    "it": "Inserire gli header CORS e gestire le richieste di preflight con un filtro"
+   },
+   {
+    "ref": "FatturaREST_JAXRS",
+    "en": "The RESTful  invoice service developed with JAX-RS",
+    "it": "Il servizio fattura  RESTful realizzato con JAX-RS",
+    "type": "esempio"
+   },
+   {
+    "en": "RESTful in PHP: the Slim framework",
+    "it": "RESTful in PHP: il framework Slim"
+   },
+   {
+    "ref": "FatturaREST_PHP",
+    "en": "The invoice RESTful service created using Slim in PHP",
+    "it": "Il servizio fattura  RESTful realizzato con Slim in PHP",
+    "type": "esempio"
+   },
+   {    
+    "en": "A Java library to easily develop RESTful clients: Apache HTTPComponents Client",
+    "it": "Una libreria Java per sviluppare facilmente client RESTful: Apache HTTPComponents  Client"
+   },
+   {
+    "ref": "FatturaREST_Client",
+    "en": "A client for the invoice RESTful service",
+    "it": "Un client per il servizio RESTful fattura",
+    "type": "esempio"
+   },
+   {
+    "en": "RESTful clients in PHP: the HTTPful library",
+    "it": "Client RESTful in PHP: la libreria HTTPful"
+   },
+   {
+    "ref": "FatturaREST_Client_PHP",
+    "en": "A client for the invoice RESTful service",
+    "it": "Un client per il servizio fattura realizzato con HTTPful in PHP",
+    "type": "esempio"
+   }
+  ],
+  "title": {
+   "en": "Advanced RESTful",
+   "it": "RESTful avanzato"
+  }
+ },
+ {
+  "date": "2022-05-27T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "ref": "Slides JQuery",
+    "en": "Introduction to JQuery",
+    "it": "Introduzione a JQuery"
+   },
+   {
+    "en": "Download JQuery",
+    "it": "Scaricare JQuery"
+   },
+   {
+    "en": "When it is correct to use JQuery in a web project?",
+    "it": "Quando usare JQuery in un progetto web?"
+   },
+   {
+    "en": "Basic notions on the DOM structure fot HTML pages and its access via Javascript",
+    "it": "Richiami sulla struttura DOM delle pagine HTML e sul suo accesso via Javascript"
+   },
+   {
+    "en": "The $ function and the different ways to use it",
+    "it": "La funzione $ e i modi per utilizzarla"
+   },
+   {
+    "en": "Wrapping the DOM in JQuery objects",
+    "it": "Wrapping del DOM in oggetti JQuery"
+   },
+   {
+    "en": "JQuery objects are arrays: use them correctly!",
+    "it": "Gli oggetti JQuery sono array: uso corretto"
+   },
+   {"type": "esempio"},
+   {
+    "en": "Selecting items with JQuery: CSS3 selectors and traversal functions",
+    "it": "Selezionare elementi con JQuery: selettori CSS3 e funzioni di attraversamento"
+   },
+   {
+    "en": "JQuery selectors: base",
+    "it": "Selettori JQuery: base"
+   },
+   {
+    "en": "JQuery selectors: attributes",
+    "it": "Selettori JQuery: attributi"
+   },
+   {"type": "esempio"},
+   {
+    "en": "JQuery selectors: base filters",
+    "it": "Selettori JQuery: filtri di base"
+   },
+   {
+    "en": "Differences between the :eq selector and the direct access to the JQuery array",
+    "it": "Differenza tra il selettore :eq e l'accesso diretto all'array JQuery",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery selectors: content filters",
+    "it": "Selettori JQuery: filtri di contenuto"
+   },
+   {
+    "en": "Using the :has filter, also in combination with: not",
+    "it": "Uso del filtro :has, anche in combinazione con :not",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery selectors: child filters",
+    "it": "Selettori JQuery: filtri sui figli"
+   },
+   {
+    "en": "JQuery selectors: visibility filters",
+    "it": "Selettori JQuery: filtri di visibilità"
+   },
+   {
+    "en": "What is really invisible on a web page?",
+    "it": "Cos'è veramente invisibile in una pagina web?",
+    "type": "esempio"
+   },
+   {"type": "esempio"},
+   {
+    "en": "JQuery selectors: form filters",
+    "it": "Selettori JQuery: filtri per le form"
+   },
+   {"type": "esempio"},
+   {
+    "en": "Traversing the DOM with JQuery",
+    "it": "Attraversamento del DOM con JQuery"
+   },
+   {
+    "en": "Differences between selection and traversal",
+    "it": "Differenze tra selezione e attraversamento"
+   },
+   {
+    "en": "JQuery traversal functions: hierarchy",
+    "it": "Funzioni di attraversamento JQuery: gerarchia"
+   },
+   {
+    "en": "Filter selectors in traversal functions",
+    "it": "I selettori-filtro nelle funzioni di attraversamento"
+   },
+   {
+    "en": "Differences between nextAll and nextUntil",
+    "it": "Differenza tra nextAll e nextUntil",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery traversal functions: filters",
+    "it": "Funzioni di attraversamento JQuery: filtri"
+   },
+   {
+    "en": "The filter and is functions: similarities and differences",
+    "it": "Le funzioni filter e is: similarità e differenze",
+    "type": "esempio"
+   },
+   {
+    "en": "The not function used to make set differences",
+    "it": "La funzione not usata per realizzare differenze insiemistiche"
+   },
+   {"type": "esempio"},
+   {
+    "en": "Basic notions on the DOM selection and traversal functions",
+    "it": "Richiami sulle funzioni di selezione e attraversamento previste dal DOM"
+   },
+   {
+    "en": "JQuery DOM manipulation functions",
+    "it": "Le funzioni di manipolazione DOM in JQuery"
+   },
+   {
+    "en": "Manipulation function argomentos: HTML strings, selection strings, JQuery objects, DOM objects",
+    "it": "Argomenti standard delle funzioni di manipolazione: stringhe HTML, stringhe di selezione, oggetti JQuery, oggetti DOM"
+   },
+   {
+    "en": "JQuery DOM manipulation functions: insertion",
+    "it": "Le funzioni di manipolazione DOM in JQuery: inserimento"
+   },
+   {"type": "esempio"},
+   {
+    "en": "JQuery DOM manipulation functions: removal",
+    "it": "Le funzioni di manipolazione DOM in JQuery: rimozione"
+   },
+   {
+    "en": "Difference between remove() and detach()",
+    "it": "Differenza tra remove() e detach()",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery DOM manipulation functions: replacement",
+    "it": "Le funzioni di manipolazione DOM in JQuery: sostituzione"
+   },
+   {
+    "en": "JQuery DOM manipulation functions: cloning",
+    "it": "Le funzioni di manipolazione DOM in JQuery: clonazione"
+   },
+   {
+    "en": "The clone() function used to support client-side HTML templates",
+    "it": "La funzione clone() usata a supporto dei template HTML client-side",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery DOM manipulation functions: wrapping",
+    "it": "Le funzioni di manipolazione DOM in JQuery: wrapping"
+   },
+   {
+    "en": "Differences between the various wrap functions",
+    "it": "Differenze tra le varie tipologie di wrap",
+    "type": "esempio"
+   },
+   {
+    "en": "Accessing and modifying the element content: attributes",
+    "it": "Accesso e modifica del contenuto di un elemento: attributi"
+   },
+   {
+    "en": "Accessing and modifying the element content: html",
+    "it": "Accesso e modifica del contenuto di un elemento: html"
+   },
+   {
+    "en": "Accessing and modifying the element content: text",
+    "it": "Accesso e modifica del contenuto di un elemento: testo"
+   },
+   {
+    "en": "The text(V) function and the automatic HTML escaping",
+    "it": "La funzione text(V) e l'escaping automatico dell'HTML",
+    "type": "esempio"
+   },
+   {
+    "en": "Accessing and modifying the element content: form fields",
+    "it": "Accesso e modifica del contenuto di un elemento: campi form"
+   },
+   {
+    "en": "Accessing and modifying the element style: class attribute manipulation functions",
+    "it": "Accesso e modifica dello stile: metodi per la manipolazione dell'attributo class"
+   },
+   {
+    "en": "Accessing and modifying the element style: functions for direct CSS manipulation",
+    "it": "Accesso e modifica dello stile: metodi per la manipolazione diretta del CSS"
+   },
+   {"type": "esempio"},
+   {
+    "en": "Simplified element position and width manipulation",
+    "it": "Manipolazione semplificata di posizione e ampiezza degli elementi"
+   },
+   {
+    "en": "Base, inner, and outer dimensions of an object",
+    "it": "Dimensioni base, interne ed esterne di un oggetto",
+    "type": "esempio"
+   },
+   {
+    "en": "Assigning data to elements with the data() function",
+    "it": "Associazione di dati a elementi con la funzione data()"
+   },
+   {
+    "en": "Event handling in JQuery: binding (in bubbling phase)",
+    "it": "Event handling in JQuery: binding (in fase bubbling)"
+   },
+   {
+    "en": "Event handling in JQuery: the normalized event object",
+    "it": "Event handling in JQuery: l'oggetto evento normalizzato"
+   },
+   {
+    "en": "Custom events",
+    "it": "Eventi custom",
+    "type": "esempio"
+   },
+   {
+    "en": "Manual triggering of an event with JQuery",
+    "it": "Attivazione manuale di un evento con JQuery"
+   },
+   {
+    "en": "Event handling in JQuery: delegation",
+    "it": "Event handling in JQuery: delegazione"
+   },
+   {
+    "en": "Meaning of event delegation and its actual implementation",
+    "it": "Significato della delegazione e sua effettiva implementazione tramite bubbling"
+   }
+  ],
+  "title": {
+   "en": "JQuery: selection, traversal and manipulation",
+   "it": "JQuery: selezione, attraversamento e manipolazione"
+  }
+ },
+ {
+  "date": "2022-06-03T11:30:00",
+  "duration": 2,
+  "arguments": [
+   {
+    "en": "JQuery and AJAX: the main $ .ajax function",
+    "it": "JQuery e AJAX: la funzione principale $.ajax"
+   },
+   {
+    "en": "Automatic decoding of data received via AJAX",
+    "it": "Decodifica automatica dei dati ricevuti via AJAX"
+   },
+   {
+    "en": "The Jsonp dataType and the AJAX cross-origin calls executed without XMLHTTPRequest",
+    "it": "Il dataType jsonp e le chiamate AJAX cross-origin eseguite senza XMLHTTPRequest",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery and AJAX: $ .ajax main parameters",
+    "it": "JQuery e AJAX: parametri principali della chiamata $.ajax"
+   },
+   {
+    "en": "JQuery and AJAX: how to pass data (as a query string) to an AJAX call",
+    "it": "JQuery e AJAX: passare dati (query string) in una chiamata AJAX"
+   },
+   {
+    "en": "JQuery and AJAX: the event handlers of an AJAX call",
+    "it": "JQuery e AJAX: gli eventi handler di una chiamata AJAX"
+   },
+   {
+    "en": "JQuery and AJAX: the \"shortcut\"methods $ .get, $ .post, and $ .getJSON",
+    "it": "JQuery e AJAX: i metodi \"scorciatoia\"$.get, $.post e $.getJSON"
+   },
+   {
+    "en": "JQuery and AJAX: the special $.getScript method",
+    "it": "JQuery e AJAX: lo speciale metodo $.getScript"
+   },
+   {
+    "en": "Lazy script loading",
+    "it": "Lazy loading di script",
+    "type": "esempio"
+   },
+   {
+    "en": "JQuery and AJAX: the load method applied to JQuery objects",
+    "it": "JQuery e AJAX: il  metodo load applicato a oggetti JQuery"
+   },
+   {
+    "ref": "JQ_Example_jqExpand",
+    "en": "jqExpand, a script to make HTML page elements collapsible: automatic DOM manipulation",
+    "it": "jqExpand, uno script per rendere collassabili elementi della pagina HTML: la manipolazione automatica del DOM",
+    "type": "esempio"
+   },
+   {
+    "en": "Using ARIA attributes to give semantics to JQuery-controlled items",
+    "it": "Uso degli attributi ARIA per dare semantica agli elementi controllati da JQuery "
+   },
+   {
+    "en": "How to make collapsible elements (more) accessible",
+    "it": "Rendere gli elementi collassabili veramente accessibili",
+    "type": "esempio"
+   },
+   {
+    "en": "Creation and usage of custom events with JQuery",
+    "it": "Creare e usare eventi custom con JQuery",
+    "type": "esempio"
+   },
+   {
+    "en": "Using custom events to control and synchronize page objects",
+    "it": "Sfruttare eventi custom per controllare e sincronizzare tra loro oggetti della pagina "
+   },
+   {
+    "en": "Dynamically change the page before applying a script",
+    "it": "Modificare dinamicamente la pagina prima di applicare uno script "
+   },
+   {
+    "en": "Extend the JQuery function namespace",
+    "it": "Estendere il function namespace di JQuery"
+   },
+   {
+    "ref": "JQ_Example_jqTabs",
+    "en": "Tabbed Cards with JQuery",
+    "it": "Schede impilate ('tabbed') con JQuery",
+    "type": "esempio"
+   },
+   {
+    "en": "Making animated items accessible: what if scripts are turned off?",
+    "it": "Rendere accessibile un elemento animato: cosa succede se gli script sono disattivati? "
+   },
+   {
+    "en": "Move presentation logic, even if animated, from JQuery to style sheets",
+    "it": "Spostare la logica di presentazione, anche se animata, da JQuery ai fogli di stile "
+   },
+   {
+    "ref": "JQ_Example_jqGallery",
+    "en": "A simple gallery created as a JQuery plugin",
+    "it": "Una semplice galleria realizzata come plugin JQuery",
+    "type": "esempio"
+   },
+   {
+    "en": "How to extend the JQuery function namespace with a plugin and its defaults",
+    "it": "Estendere il function namespace di JQuery con un plugin e i suoi default "
+   },
+   {
+    "en": "The extend method to merge objects",
+    "it": "Il metodo extend per fondere tra loro oggetti "
+   },
+   {
+    "en": "Managing local and default options of a plugin",
+    "it": "Gestione delle opzioni locali e default di un plugin "
+   },
+   {
+    "en": "Using the data method to attach plugin instances to DOM elements",
+    "it": "Uso del metodo data per agganciare istanze del plugin agli elementi DOM da esse gestiti "
+   },
+   {
+    "en": "Extension: advanced Javascript and JQuery use to call plugin methods from the JQuery object",
+    "it": "Estensione: uso avanzato di Javascript e JQuery per chiamare metodi del plugin dall'oggetto JQuery "
+   }
+  ],
+  "title": {
+   "en": "JQuery: examples",
+   "it": "JQuery: esempi"
+  }
+ }
+]
