@@ -21,35 +21,35 @@
 {% endif %}
 {% endif %}
 
-{% assign    scopedinfoname = 'info-' | append: ryear %}
+{% assign scopedinfoname = 'info-' | append: ryear %}
 {% if site.data[scopedinfoname] %}
 {% assign courseinfo = site.data[scopedinfoname]  %}
 {% else %}
 {% assign courseinfo = site.data.info  %}
 {% endif %}
 
-{% assign    scopedinfoname = 'links-' | append: ryear %}
+{% assign scopedinfoname = 'links-' | append: ryear %}
 {% if site.data[scopedinfoname] %}
 {% assign linkinfo = site.data[scopedinfoname]  %}
 {% else %}
 {% assign linkinfo = site.data.links  %}
 {% endif %}
 
-{% assign    scopedinfoname = 'materiale-' | append: ryear %}
+{% assign scopedinfoname = 'materiale-' | append: ryear %}
 {% if site.data[scopedinfoname] %}
 {% assign materialinfo = site.data[scopedinfoname]  %}
 {% else %}
 {% assign materialinfo = site.data.materiale  %}
 {% endif %}
 
-{% assign    scopedinfoname = 'software-' | append: ryear %}
+{% assign scopedinfoname = 'software-' | append: ryear %}
 {% if site.data[scopedinfoname] %}
 {% assign softwareinfo = site.data[scopedinfoname]  %}
 {% else %}
 {% assign softwareinfo = site.data.software  %}
 {% endif %}
 
-{% assign    scopedinfoname = 'extras-' | append: ryear %}
+{% assign scopedinfoname = 'extras-' | append: ryear %}
 {% if site.data[scopedinfoname] %}
 {% assign extrainfo = site.data[scopedinfoname]  %}
 {% else %}
