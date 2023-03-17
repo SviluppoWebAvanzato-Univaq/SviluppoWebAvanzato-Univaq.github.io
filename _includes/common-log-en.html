@@ -84,7 +84,7 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% for lezione in log %}
 {% unless lezione.show == false %} 
 {% assign nl = nl | plus: 1 %}
-<h3><a name="#L{{ nl }}"><a>Lecture {{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
+<h3><a name="#L{{ nl }}"></a>Lecture {{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
 {% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</h3>
 <p><small><em>{{ lezione.date | date: "%Y-%m-%d, %H:%M" }} ({{ lezione.duration }} hours)
 {% if lezione.video %}
@@ -101,17 +101,20 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% for argomento in lezione.arguments %}
 {% unless argomento.show == false %} 
 {% assign na = na | plus: 1 %}
-<li>({{ nl }}-{{ na }}) 
+<li><div class="d-flex">
+<div class="me-1">({{ nl }}-{{ na }})</div>
+<div>
 {% if argomento.type == "esempio" %} 
 {% if argomento[language] or argomento['all'] %}<span class="badge rounded-pill bg-secondary">Example</span> {% else %}<em>Examples</em>{% endif %}
 {% endif %}
 {% if argomento[language] %} {{ argomento[language] }}
 {% elsif argomento['all'] %} {{ argomento['all'] }}{% endif %}
 {% if argomento.ref %} 
-<small><span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>material</span> {% if argomento.link %}<a href="{{ argomento.link }}">{% endif %}{{ argomento.ref }}{% if argomento.link %}</a>{% endif %}</small>
-{% elsif argomento.link %}  <small><span class="badge rounded-pill bg-dark"><span class="bi bi-box-arrow-up-right"></span>link</span> <a href="{{ argomento.link }}">{{ argomento.link }}</a></small> 
+<br/><small><span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>material</span> {% if argomento.link %}<a href="{{ argomento.link }}">{% endif %}{{ argomento.ref }}{% if argomento.link %}</a>{% endif %}</small>
+{% elsif argomento.link %}  <br/><small><span class="badge rounded-pill bg-dark"><span class="bi bi-box-arrow-up-right"></span>link</span> <a href="{{ argomento.link }}">{{ argomento.link }}</a></small> 
 {% endif %}
-</li>
+</div>
+</div></li>
 {% endunless %}
 {% endfor %}
 {% endunless %}
