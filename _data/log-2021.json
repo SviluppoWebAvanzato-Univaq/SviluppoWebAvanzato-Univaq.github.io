@@ -318,11 +318,11 @@
   "arguments": [
    {
     "en": "The invoice case study",
-    "it": "Un pattern avanzato per le API RESTful: l'asynchronous long running operation"
+    "it": "Il caso di studio fattura"
    },
    {
     "en": "A RESTful API advanced pattern: asynchronous long running operations",
-    "it": "Il caso di studio fattura",
+    "it": "Un pattern avanzato per le API RESTful: l'asynchronous long running operation",
     "type": "esempio"
    },
    {
