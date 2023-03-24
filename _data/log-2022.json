@@ -382,8 +382,8 @@
         "it": "I vantaggi di OAuth: nessuna memorizzazione delle credenziali e codici di autorizzazione con contesto"
       },
       {
-        "en": "OAuth nel mondo reale",
-        "it": "OAuth in the real world",
+        "it": "OAuth nel mondo reale",
+        "en": "OAuth in the real world",
         "type": "esempio",
         "attachments": [
           {

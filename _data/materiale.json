@@ -26,19 +26,21 @@
     }
   ],
   "examples": [
-   
     {
       "nome": {
-        "it": "Specifiche RESTful sviluppate in aula", "en":"RESTful specifications developed during the lectures"
+        "it": "Specifiche RESTful sviluppate in aula",
+        "en": "RESTful specifications developed during the lectures"
       },
       "url": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST",
       "commento": {
-        "it": "In questo repository troverete varia documentazione (specifiche informali, modelli dei dati, specifiche OpenAPI,...) relativa agli esempi di servizi RESTful sviluppati in aula. Ciascuna cartella contiene il materiale relativo a un certo anno accademico (ad esempio 2022 per l'anno accademico 2022/2023), quindi anche se dovessero esserci file con nome simile scaricate sempre e solo quelli relativi al vostro anno di frequenza"
+        "it": "In questo repository troverete varia documentazione (specifiche informali, modelli dei dati, specifiche OpenAPI,...) relativa agli esempi di servizi RESTful sviluppati in aula. Ciascuna cartella contiene il materiale relativo a un certo anno accademico (ad esempio 2022 per l'anno accademico 2022/2023), quindi anche se dovessero esserci file con nome simile scaricate sempre e solo quelli relativi al vostro anno di frequenza",
+        "en": "In this repository you will find various documentation (informal specifications, data models, OpenAPI specifications,...) related to the  RESTful services examples developed during the lectures. Each folder contains the material related to a specific academic year (for example 2022 for the academic year 2022/2023), so even if there are files with similar name in other folders, always download only those related to your year"
       }
     },
     {
       "nome": {
-        "it": "Applicazioni base JAX-RS", "en":"JAX-RS base applications"
+        "it": "Applicazioni base JAX-RS",
+        "en": "JAX-RS base applications"
       },
       "url": "https://github.com/orgs/SviluppoWebAvanzato-Univaq/repositories?q=JAXRS_Base&type=all&language=&sort=name",
       "commento": {
@@ -46,7 +48,7 @@
         "en": "A project with the base structure of any RESTful API developed with JAX-RS"
       }
     },
-	 {
+    {
       "nome": {
         "all": "jQuery"
       },
