@@ -104,17 +104,30 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% assign na = na | plus: 1 %}
 <li><div class="d-flex">
 <div class="me-1">({{ nl }}-{{ na }})</div>
+
 <div>
 {% if argomento.type == "esempio" %} 
 {% if argomento[language] or argomento['all'] %}<span class="badge rounded-pill bg-secondary">Esempio</span> {% else %}<em>Esempi</em>{% endif %}
 {% endif %}
 {% if argomento[language] %} {{ argomento[language] }}
 {% elsif argomento['all'] %} {{ argomento['all'] }}{% endif %}
+
 {% if argomento.ref %} 
 <br/><small><span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>materiale</span> {% if argomento.link %}<a href="{{ argomento.link }}">{% endif %}{{ argomento.ref }}{% if argomento.link %}</a>{% endif %}</small>
 {% elsif argomento.link %}  <br/><small><span class="badge rounded-pill bg-dark"><span class="bi bi-box-arrow-up-right"></span>link</span> <a href="{{ argomento.link }}">{{ argomento.link }}</a></small> 
 {% endif %}
+
+{% if argomento.attachments %} 
+{% for attachment in argomento.attachments %} 
+<br/>
+{% if attachment.name %}<small><span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>materiale</span> {% if attachment.link %}<a href="{{ attachment.link }}">{% endif %}{{ attachment.name }}{% if attachment.link %}</a>{% endif %}</small>
+{% elsif attachment.link %}<small><span class="badge rounded-pill bg-dark"><span class="bi bi-box-arrow-up-right"></span>link</span> <a href="{{ attachment.link }}">{{ attachment.link }}</a></small> 
+{% endif %}
+{% endfor %}
+{% endif %}
+
 </div>
+
 </div></li>
 {% endunless %}
 {% endfor %}

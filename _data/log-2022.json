@@ -339,5 +339,73 @@
       "en": "RESTful services semantics 2",
       "it": "La semantica dei servizi RESTful 2"
     }
+  },
+  {
+    "date": "2023-03-24T11:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Security in RESTful APIs",
+        "it": "Sicurezza nelle API RESTful"
+      },
+      {
+        "en": "The role of the access token in API security",
+        "it": "Il ruolo del token di accesso nella sicurezza delle API"
+      },
+      {
+        "en": "How to exchange the access token: from base methods (query string, path) to Bearer Authorization",
+        "it": "Come scambiarsi il token di accesso: dai metodi rudimentali (query string, path) alla Bearer Authorization"
+      },
+      {
+        "en": "Managing the expiration and refreshing access tokens",
+        "it": "Gestire la scadenza e il refresh dei token di accesso"
+      },
+      {
+        "en": "Generating access tokens: authentication schemes",
+        "it": "Generare i token di accesso: schemi di autenticazione"
+      },
+      {
+        "en": "How to implement the login/logout technique in a RESTful service",
+        "it": "Realizzare la tecnica del login/logout in un servizio RESTful",
+        "type": "esempio"
+      },
+      {
+        "en": "OAuth: an advanced authentication system for services",
+        "it": "OAuth: un sistema di autenticazione particolarmente adatto ai servizi"
+      },
+      {
+        "en": "The OAuth 2 authorization flow",
+        "it": "Il flusso di autorizzazione OAuth 2"
+      },
+      {
+        "en": "The benefits of OAuth: no stored credentials and scoped authorization codes",
+        "it": "I vantaggi di OAuth: nessuna memorizzazione delle credenziali e codici di autorizzazione con contesto"
+      },
+      {
+        "en": "OAuth nel mondo reale",
+        "it": "OAuth in the real world",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow"
+          }
+        ]
+      },
+      {
+        "en": "The invoice case study",
+        "it": "Il caso di studio fattura",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "REST_Specs",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2022"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "RESTful services security",
+      "it": "La sicurezza nei servizi RESTful"
+    }
   }
 ]
