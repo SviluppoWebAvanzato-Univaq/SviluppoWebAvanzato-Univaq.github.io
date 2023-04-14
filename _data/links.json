@@ -1,5 +1,4 @@
-[	  
- 
+[
   {
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "nome": {
@@ -7,13 +6,50 @@
     }
   },
   {
-      "nome": {
-        "all": "Java Servlet Technology"
-      },
-      "commento": {
-        "it": "Tutte le informazioni di base sulle servlet direttamente dal Java EE 6 Tutorial"
-      },
-      "url": "http://download.oracle.com/javaee/6/tutorial/doc/bnafd.html"
-    }
-    
+    "nome": {
+      "all": "Java Servlet Technology"
+    },
+    "commento": {
+      "it": "Tutte le informazioni di base sulle servlet direttamente dal Java EE 6 Tutorial"
+    },
+    "url": "http://download.oracle.com/javaee/6/tutorial/doc/bnafd.html"
+  },
+  {
+    "nome": {
+      "all": "JSON Schema Specification"
+    },
+    "url": "https://json-schema.org/specification.html"
+  },
+  {
+    "nome": {
+      "all": "JSON Specification"
+    },
+    "url": "https://www.json.org"
+  },
+  {
+    "nome": {
+      "all": "JSON Schema Validator"
+    },
+    "commento": {
+      "it": "Un validatore online di documenti JSON basato su JSON Schema",
+      "en": "An online JSON document validator based on JSON Schema"
+    },
+    "url": "https://www.jsonschemavalidator.net/"
+  },
+  {
+    "nome": {
+      "all": "YAML Specification"
+    },
+    "url": "https://yaml.org/spec"
+  },
+  {
+    "nome": {
+      "all": "JSON to YAML"
+    },
+    "commento": {
+      "it": "Un convertitore online da JSON a YAML (e viceversa)",
+      "en": "An online JSON to YAML (and vice versa) converter"
+    },
+    "url": "https://jsonformatter.org/json-to-yaml"
+  }
 ]
