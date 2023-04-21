@@ -522,7 +522,7 @@
         "type": "esempio",
         "attachments": [
           {
-            "name": "schema_fattura.json",
+            "name": "Schema.json",
             "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2022"
           }
         ]
@@ -547,6 +547,93 @@
     ],
     "title": {
       "all": "JSON Schema"
+    }
+  },
+  {
+    "date": "2022-04-21T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "OpenAPI",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Introduction to OpenAPI 3",
+        "it": "Presentazione di OpenAPI 3"
+      },
+      {
+        "en": "OpenAPI online tools and specification",
+        "it": "Tool e specifiche OpenAPI reperibili online",
+        "attachments": [
+          {
+            "link": "https://www.openapis.org/"
+          },
+          {
+            "link": "https://swagger.io/tools/open-source/"
+          }
+        ]
+      },
+      {
+        "en": "OpenAPI: basic structure",
+        "it": "OpenAPI: struttura di base"
+      },
+      {
+        "en": "OpenAPI: info object",
+        "it": "OpenAPI: oggetto info"
+      },
+      {
+        "en": "OpenAPI: tags object",
+        "it": "OpenAPI: oggetto tags"
+      },
+      {
+        "en": "OpenAPI: externalDocs object",
+        "it": "OpenAPI: oggetto externalDocs"
+      },
+      {
+        "en": "OpenAPI: servers",
+        "it": "OpenAPI: servers"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "OpenAPI: specification factorization and components object",
+        "it": "OpenAPI: fattorizzazione della specifica e oggetto components"
+      },
+      {
+        "en": "OpenAPI: schema components",
+        "it": "OpenAPI: componenti di tipo schema"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "OpenAPI: parameter components",
+        "it": "OpenAPI:  componenti di tipo parameter "
+      },
+      {
+        "en": "OpenAPI: response components",
+        "it": "OpenAPI:  componenti di tipo response"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "OpenAPI: requestBody components",
+        "it": "OpenAPI:  componenti di tipo requestBody "
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "OpenAPI: securityScheme components",
+        "it": "OpenAPI:  componenti di tipo securityScheme "
+      }
+    ],
+    "title": {
+      "all": "OpenAPI"
     }
   }
 ]
