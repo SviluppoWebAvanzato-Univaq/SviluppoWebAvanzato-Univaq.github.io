@@ -1,6 +1,6 @@
 {%include pageglobal.html %}
 
-{% assign    scopedinfoname = 'log-' | append: ryear %}
+{% assign scopedinfoname = 'log-' | append: ryear %}
 {% if site.data[scopedinfoname] %}
 {% assign log = site.data[scopedinfoname] %}
 {% endif %}
@@ -56,6 +56,9 @@ document.getElementById('jumptoyear').addEventListener("change",function() {
 {% endfor %}
 </select>
 
+{% assign temp = dl | times: 100 %}
+{% assign dlrp = temp | divided_by: courseinfo.durata %}
+
 <script>
 document.getElementById('jumpto').addEventListener("change",function() { 
   let anchor = document.getElementById('jumpto').value;
@@ -72,9 +75,32 @@ document.getElementById('jumpto').addEventListener("change",function() {
     
 {% if log %}
 <div class="card-footer">
-<small><em>Lezioni totali: {{ nl }}, ore erogate: {{ dl }}
+<small><em>Lezioni totali: {{ nl }}, ore erogate: {{ dl }} ({{dlrp}}%)
 - Prima lezione: {{ primalezione.date | date: "%d/%m/%Y" }}, Ultima lezione: {{ ultimalezione.date | date: "%d/%m/%Y" }}
 </em></small>
+
+{% if dl < courseinfo.durata %}
+<div class="progress" role="progressbar" aria-label="lectures" aria-valuenow="{{ dlrp }}" aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+{% assign nl = 0 %}
+{% for lezione in log %}
+{% unless lezione.show == false %} 
+{% assign nl = nl | plus: 1 %}
+{% assign temp = lezione.duration | times: 100.0 %}
+{% assign dlrp = temp | divided_by: courseinfo.durata %}
+{% assign alt = nl | modulo: 2 %}
+{% if alt == 0  %}
+{% assign color = "#166079" %}
+{% else  %}
+{% assign color = "#1d7e9c" %}
+{% endif  %}
+<div class="progress-bar" style="background-color: {{color}}; width: {{ dlrp }}%"></div>
+{% endunless %}
+{% endfor %}
+
+</div>
+{% endif %}
+
+
 </div>
 {% endif %}
   </div>
