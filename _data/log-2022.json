@@ -1,6 +1,6 @@
 [
   {
-    "date": "2023-03-03 11:30:00",
+    "date": "2023-03-03T11:30:00",
     "duration": 2,
     "slides": [
       {
@@ -89,7 +89,7 @@
     }
   },
   {
-    "date": "2023-03-10 11:30:00",
+    "date": "2023-03-10T11:30:00",
     "duration": 2,
     "slides": [
       {
@@ -409,7 +409,7 @@
     }
   },
   {
-    "date": "2022-03-31T11:30:00",
+    "date": "2023-03-31T11:30:00",
     "duration": 2,
     "arguments": [
       {
@@ -550,7 +550,7 @@
     }
   },
   {
-    "date": "2022-04-21T11:30:00",
+    "date": "2023-04-21T11:30:00",
     "duration": 2,
     "slides": [
       {
@@ -633,7 +633,88 @@
       }
     ],
     "title": {
-      "all": "OpenAPI"
+      "all": "OpenAPI /1"
     }
+  },
+  {
+    "date": "2023-05-28T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "OpenAPI",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "OpenAPI: endpoints: basic structure of the paths object",
+        "it": "OpenAPI: specificare gli endpoint: struttura di base dell'oggetto paths"
+      },
+      {
+        "en": "OpenAPI: parametric URLs in the paths object",
+        "it": "OpenAPI: definire URL parametriche nell'oggetto paths"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "OpenAPI: endpoint parameters (parameters)",
+        "it": "OpenAPI: definire i parametri di un endpoint (parameters)"
+      },
+      {
+        "en": "Path-level and method-level parameters",
+        "it": "Parametri di livello path e metodo"
+      },
+      {
+        "en": "OpenAPI: response status and corresponding content (responses)",
+        "it": "OpenAPI: definire i possibili stati di risposta e associare il realtivo contenuto (responses)"
+      },
+      {
+        "en": "OpenAPI: request content (requestBody)",
+        "it": "OpenAPI: definire il contenuto delle richieste (requestBody)"
+      },
+      {
+        "en": "OpenAPI: security requirements of an endpoint (security)",
+        "it": "OpenAPI: definire i requisiti di sicurezza di un endpoint (security)"
+      },
+      {
+        "en": "The invoice RESTful service specification with OpenAPI 3",
+        "it": "La specifica del servizio RESTful fattura con OpenAPI 3",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "OpenApi.yaml",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2022"
+          }
+        ]
+      },
+      {
+        "en": "Developing a RESTful service with JAX-RS",
+        "it": "Sviluppo di progetti RESTful con JAX-RS",
+        "attachments": [
+          {
+            "link": "https://eclipse-ee4j.github.io/jersey/"
+          }
+        ]
+      },
+      {
+        "en": "JAX-RS dependencies in a Maven web application project",
+        "it": "Dipendenze JAX-RS in un progetto di web application con Maven"
+      },
+      {
+        "en": "Using Jackson as a JSON provider for JAX-RS",
+        "it": "Configurare Jackson come provider per JAX-RS",
+        "attachments": [
+          {
+            "link": "https://github.com/FasterXML/jackson-jaxrs-providers"
+          }
+        ]
+      },
+      {
+        "en": "Configuring JAX-RS with service providers and resources: the Application class and  @ApplicationPath annotation",
+        "it": "Configurare JAX-RS con le risorse e i provider necessari: la classe Application e l'annotazione @ApplicationPath"
+      }
+    ],
+    "all": "OpenAPI /2"
   }
 ]
