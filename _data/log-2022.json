@@ -715,7 +715,9 @@
         "it": "Configurare JAX-RS con le risorse e i provider necessari: la classe Application e l'annotazione @ApplicationPath"
       }
     ],
-    "all": "OpenAPI /2"
+    "title": {
+      "all": "OpenAPI /2"
+    }
   },
   {
     "date": "2023-05-05T11:30:00",
