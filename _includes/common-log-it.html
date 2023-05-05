@@ -120,6 +120,9 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% if lezione.slides %}<br/>
 <span class="badge rounded-pill bg-dark"><span class="bi bi-easel"></span>Slides</span> {% for slide in lezione.slides %}<a href="{{slide.link}}">{{slide.name | default: "slides"}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
 {% endif %}
+{% if lezione.attachments %}<br/>
+<span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>Materiale</span> {% for attachment in lezione.attachments %}<a href="{{attachment.link}}">{{attachment.name | default: "esempio"}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+{% endif %}
 </small></p>
 
 
