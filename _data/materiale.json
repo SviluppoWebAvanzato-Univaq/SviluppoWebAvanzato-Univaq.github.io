@@ -50,6 +50,17 @@
     },
     {
       "nome": {
+        "it": "Esempi JAX-RS",
+        "en": "JAX-RS examples"
+      },
+      "url": "https://github.com/orgs/SviluppoWebAvanzato-Univaq/repositories?q=JAXRS_Example&type=all&language=&sort=name",
+      "commento": {
+        "it": "Interfacce RESTful di esempio implementate in JAX-RS.",
+        "en": "Sample RESTful interfaces implemented in JAX-RS"
+      }
+    },
+    {
+      "nome": {
         "all": "jQuery"
       },
       "url": "https://github.com/orgs/SviluppoWebAvanzato-Univaq/repositories?q=JQ_&type=all&language=&sort=name",
