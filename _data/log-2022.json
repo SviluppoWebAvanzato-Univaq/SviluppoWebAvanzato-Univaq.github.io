@@ -815,7 +815,7 @@
     "arguments": [
       {
         "en": "Returning a binary download",
-        "it": "Restituire un binario da scaricare",
+        "it": "Restituire un binario da scaricare"
       },
       {
         "en": "Returning a stream: StreamingOutput",
@@ -843,7 +843,7 @@
       },
       {
         "en": "Using the UriInfo class to generate URIs to internal resources of a REST application",
-        "it": "Usare la classe UriInfo per generare URI di risorse REST interne all'applicazione",
+        "it": "Usare la classe UriInfo per generare URI di risorse REST interne all'applicazione"
       },
       {
         "en": "Implementation of REST methods: the @PUT annotation",
@@ -907,6 +907,368 @@
     ],
     "title": {
       "all": "JAX-RS /2"
+    }
+  },
+  {
+    "date": "2023-05-19T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "JQuery",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "RESTful in PHP with the Slim framework",
+        "it": "RESTful in PHP con il framework Slim"
+      },
+      {
+        "en": "The invoice RESTful service created using Slim in PHP",
+        "it": "Il servizio fattura  RESTful realizzato con Slim in PHP",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "PHP_Example_Fattura",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/PHP_Example_Fattura"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in Java with the Apache HTTPComponents Client library",
+        "it": "Client RESTful in Java con la libreria Apache HTTPComponents Client"
+      },
+      {
+        "en": "A Java client for the invoice RESTful service",
+        "it": "Un client Java per il servizio RESTful fattura",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Java_Fattura_Client",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Java_Fattura_Client"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in PHP with the HTTPful library",
+        "it": "Client RESTful in PHP con la libreria HTTPful"
+      },
+      {
+        "en": "A PHP client for the invoice RESTful service",
+        "it": "Un client PHP per il servizio fattura",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "PHP_Fattura_Client",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/PHP_Fattura_Client"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in Javascript with the XMLHttpRequest object (AJAX)",
+        "it": "Client RESTful in Javascript con l'oggetto XMLHttpRequest (AJAX)"
+      },
+      {
+        "en": "Synchronous and asynchronous RESTful calls",
+        "it": "Chiamate RESTful sincrone e asincrone"
+      },
+      {
+        "en": "A Javascript client for the invoice RESTful service",
+        "it": "Un client Javascript per il servizio fattura",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JAXRS_Example_Fattura",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JAXRS_Example_Fattura"
+          }
+        ]
+      },
+      {
+        "en": "Fetch API overview",
+        "it": "Cenni sulle Fetch API",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to JQuery",
+        "it": "Introduzione a JQuery",
+        "attachments": [
+          {
+            "link": "https://jquery.com/"
+          }
+        ]
+      },
+      {
+        "en": "When it is correct to use JQuery in a web project?",
+        "it": "Quando usare JQuery in un progetto web?"
+      },
+      {
+        "show": false,
+        "en": "Basic notions on the DOM structure for HTML pages and its access via Javascript",
+        "it": "Richiami sulla struttura DOM delle pagine HTML e sul suo accesso via Javascript"
+      },
+      {
+        "en": "The $ function and the different ways to use it",
+        "it": "La funzione $ e i modi per utilizzarla"
+      },
+      {
+        "en": "Wrapping the DOM in JQuery objects",
+        "it": "Wrapping del DOM in oggetti JQuery"
+      },
+      {
+        "show": false,
+        "en": "JQuery objects are arrays: use them correctly!",
+        "it": "Gli oggetti JQuery sono array: uso corretto"
+      },
+      {
+        "show": false,
+        "type": "esempio"
+      },
+      {
+        "en": "Selecting items with JQuery: CSS3 selectors and traversal functions",
+        "it": "Selezionare elementi con JQuery: selettori CSS3 e funzioni di attraversamento"
+      },
+      {
+        "show": false,
+        "en": "JQuery selectors: base",
+        "it": "Selettori JQuery: base"
+      },
+      {
+        "show": false,
+        "en": "JQuery selectors: attributes",
+        "it": "Selettori JQuery: attributi"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery selectors: base filters",
+        "it": "Selettori JQuery: filtri di base"
+      },
+      {
+        "show": false,
+        "en": "Differences between the :eq selector and the direct access to the JQuery array",
+        "it": "Differenza tra il selettore :eq e l'accesso diretto all'array JQuery",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery selectors: content filters",
+        "it": "Selettori JQuery: filtri di contenuto"
+      },
+      {
+        "show": false,
+        "en": "Using the :has filter, also in combination with: not",
+        "it": "Uso del filtro :has, anche in combinazione con :not",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery selectors: child filters",
+        "it": "Selettori JQuery: filtri sui figli"
+      },
+      {
+        "show": false,
+        "en": "JQuery selectors: visibility filters",
+        "it": "Selettori JQuery: filtri di visibilit\u00e0"
+      },
+      {
+        "show": false,
+        "en": "What is really invisible on a web page?",
+        "it": "Cos'\u00e8 veramente invisibile in una pagina web?",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery selectors: form filters",
+        "it": "Selettori JQuery: filtri per le form"
+      },
+      {
+        "show": false,
+        "type": "esempio"
+      },
+      {
+        "en": "Traversing the DOM with JQuery",
+        "it": "Attraversamento del DOM con JQuery"
+      },
+      {
+        "show": false,
+        "en": "Differences between selection and traversal",
+        "it": "Differenze tra selezione e attraversamento"
+      },
+      {
+        "show": false,
+        "en": "JQuery traversal functions: hierarchy",
+        "it": "Funzioni di attraversamento JQuery: gerarchia"
+      },
+      {
+        "show": false,
+        "en": "Filter selectors in traversal functions",
+        "it": "I selettori-filtro nelle funzioni di attraversamento"
+      },
+      {
+        "show": false,
+        "en": "Differences between nextAll and nextUntil",
+        "it": "Differenza tra nextAll e nextUntil",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery traversal functions: filters",
+        "it": "Funzioni di attraversamento JQuery: filtri"
+      },
+      {
+        "show": false,
+        "en": "The filter and is functions: similarities and differences",
+        "it": "Le funzioni filter e is: similarit\u00e0 e differenze",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "The not function used to make set differences",
+        "it": "La funzione not usata per realizzare differenze insiemistiche"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Basic notions on the DOM selection and traversal functions",
+        "it": "Richiami sulle funzioni di selezione e attraversamento previste dal DOM"
+      },
+      {
+        "en": "JQuery DOM manipulation functions",
+        "it": "Le funzioni di manipolazione DOM in JQuery"
+      },
+      {
+        "show": false,
+        "en": "Manipulation function argomentos: HTML strings, selection strings, JQuery objects, DOM objects",
+        "it": "Argomenti standard delle funzioni di manipolazione: stringhe HTML, stringhe di selezione, oggetti JQuery, oggetti DOM"
+      },
+      {
+        "show": false,
+        "en": "JQuery DOM manipulation functions: insertion",
+        "it": "Le funzioni di manipolazione DOM in JQuery: inserimento"
+      },
+      {
+        "show": false,
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery DOM manipulation functions: removal",
+        "it": "Le funzioni di manipolazione DOM in JQuery: rimozione"
+      },
+      {
+        "show": false,
+        "en": "Difference between remove() and detach()",
+        "it": "Differenza tra remove() e detach()",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery DOM manipulation functions: replacement",
+        "it": "Le funzioni di manipolazione DOM in JQuery: sostituzione"
+      },
+      {
+        "show": false,
+        "en": "JQuery DOM manipulation functions: cloning",
+        "it": "Le funzioni di manipolazione DOM in JQuery: clonazione"
+      },
+      {
+        "show": false,
+        "en": "The clone() function used to support client-side HTML templates",
+        "it": "La funzione clone() usata a supporto dei template HTML client-side",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery DOM manipulation functions: wrapping",
+        "it": "Le funzioni di manipolazione DOM in JQuery: wrapping"
+      },
+      {
+        "show": false,
+        "en": "Differences between the various wrap functions",
+        "it": "Differenze tra le varie tipologie di wrap",
+        "type": "esempio"
+      },
+      {
+        "type": "esempio"
+      },
+      {
+        "en": "Modifying the DOM with JQuery",
+        "it": "Modifica del DOM con JQuery"
+      },
+      {
+        "show": false,
+        "en": "Accessing and modifying the element content: attributes",
+        "it": "Accesso e modifica del contenuto di un elemento: attributi"
+      },
+      {
+        "show": false,
+        "en": "Accessing and modifying the element content: html",
+        "it": "Accesso e modifica del contenuto di un elemento: html"
+      },
+      {
+        "show": false,
+        "en": "Accessing and modifying the element content: text",
+        "it": "Accesso e modifica del contenuto di un elemento: testo"
+      },
+      {
+        "show": false,
+        "en": "The text(V) function and the automatic HTML escaping",
+        "it": "La funzione text(V) e l'escaping automatico dell'HTML",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Accessing and modifying the element content: form fields",
+        "it": "Accesso e modifica del contenuto di un elemento: campi form"
+      },
+      {
+        "en": "Modifying the CSS styles with JQuery",
+        "it": "Modifica degli stili CSS con JQuery"
+      },
+      {
+        "show": false,
+        "en": "Accessing and modifying the element style: class attribute manipulation functions",
+        "it": "Accesso e modifica dello stile: metodi per la manipolazione dell'attributo class"
+      },
+      {
+        "show": false,
+        "en": "Accessing and modifying the element style: functions for direct CSS manipulation",
+        "it": "Accesso e modifica dello stile: metodi per la manipolazione diretta del CSS"
+      },
+      {
+        "show": false,
+        "type": "esempio"
+      },
+      {
+        "en": "Simplified element position and width manipulation",
+        "it": "Manipolazione semplificata di posizione e ampiezza degli elementi"
+      },
+      {
+        "show": false,
+        "en": "Base, inner, and outer dimensions of an object",
+        "it": "Dimensioni base, interne ed esterne di un oggetto",
+        "type": "esempio"
+      },
+      {
+        "en": "Assigning data to elements with the data() function",
+        "it": "Associazione di dati a elementi con la funzione data()"
+      }
+    ],
+    "title": {
+      "en": "RESTful clients",
+      "it": "Client RESTful"
     }
   }
 ]
