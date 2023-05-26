@@ -973,13 +973,13 @@
         "it": "Chiamate RESTful sincrone e asincrone"
       },
       {
-        "en": "A Javascript client for the invoice RESTful service",
-        "it": "Un client Javascript per il servizio fattura",
+        "en": "A Javascript client for the invoice RESTful service: XHR client",
+        "it": "Un client Javascript per il servizio fattura: client XHR",
         "type": "esempio",
         "attachments": [
           {
-            "name": "JAXRS_Example_Fattura",
-            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JAXRS_Example_Fattura"
+            "name": "Javascript_Fattura_Client",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Javascript_Fattura_Client"
           }
         ]
       },
@@ -1269,6 +1269,231 @@
     "title": {
       "en": "RESTful clients",
       "it": "Client RESTful"
+    }
+  },
+  {
+    "date": "2023-05-26T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "JQuery",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Event handling in JQuery: binding (in bubbling phase)",
+        "it": "Event handling in JQuery: binding (in fase bubbling)"
+      },
+      {
+        "en": "Event handling in JQuery: the normalized event object",
+        "it": "Event handling in JQuery: l'oggetto evento normalizzato"
+      },
+      {
+        "show": false,
+        "en": "Custom events",
+        "it": "Eventi custom",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Manual triggering of an event with JQuery",
+        "it": "Attivazione manuale di un evento con JQuery"
+      },
+      {
+        "en": "Event handling in JQuery: delegation",
+        "it": "Event handling in JQuery: delegazione"
+      },
+      {
+        "show": false,
+        "en": "Meaning of event delegation and its actual implementation",
+        "it": "Significato della delegazione e sua effettiva implementazione tramite bubbling"
+      },
+      {
+        "en": "RESTful clients in Javascript with the Fetch API object ",
+        "it": "Client RESTful in Javascript con le Fetch API"
+      },
+      {
+        "en": "A Javascript client for the invoice RESTful service: Fetch client",
+        "it": "Un client Javascript per il servizio fattura: client Fetch",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Javascript_Fattura_Client",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Javascript_Fattura_Client"
+          }
+        ]
+      },
+      {
+        "en": "JQuery and AJAX: the main $ .ajax function",
+        "it": "JQuery e AJAX: la funzione principale $.ajax"
+      },
+      {
+        "en": "Automatic decoding of data received via AJAX",
+        "it": "Decodifica automatica dei dati ricevuti via AJAX"
+      },
+      {
+        "en": "The Jsonp dataType and the AJAX cross-origin calls executed without XMLHTTPRequest",
+        "it": "Il dataType jsonp e le chiamate AJAX cross-origin eseguite senza XMLHTTPRequest",
+        "type": "esempio"
+      },
+      {
+        "en": "JQuery and AJAX: $ .ajax main parameters",
+        "it": "JQuery e AJAX: parametri principali della chiamata $.ajax"
+      },
+      {
+        "show": false,
+        "en": "JQuery and AJAX: how to pass data (as a query string) to an AJAX call",
+        "it": "JQuery e AJAX: passare dati (query string) in una chiamata AJAX"
+      },
+      {
+        "en": "JQuery and AJAX: the event handlers of an AJAX call",
+        "it": "JQuery e AJAX: gli eventi handler di una chiamata AJAX"
+      },
+      {
+        "en": "JQuery and AJAX: the \"shortcut\"methods $ .get, $ .post, and $ .getJSON",
+        "it": "JQuery e AJAX: i metodi \"scorciatoia\"$.get, $.post e $.getJSON"
+      },
+      {
+        "en": "JQuery and AJAX: the special $.getScript method",
+        "it": "JQuery e AJAX: lo speciale metodo $.getScript"
+      },
+      {
+        "show": false,
+        "en": "Lazy script loading",
+        "it": "Lazy loading di script",
+        "type": "esempio"
+      },
+      {
+        "en": "JQuery and AJAX: the load method applied to JQuery objects",
+        "it": "JQuery e AJAX: il  metodo load applicato a oggetti JQuery"
+      },
+      {
+        "en": "RESTful clients in Javascript with JQuery",
+        "it": "Client RESTful in Javascript con JQuery"
+      },
+      {
+        "en": "A Javascript client for the invoice RESTful service: JQuery client",
+        "it": "Un client Javascript per il servizio fattura: client JQuery",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Javascript_Fattura_Client",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Javascript_Fattura_Client"
+          }
+        ]
+      },
+      {
+        "en": "Advanced examples using JQuery for webpage manipulation",
+        "it": "Esempi avanzati di JQuery per la manipolazione delle pagine web",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JQ_Example_jqExpand",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JQ_Example_jqExpand"
+          },
+          {
+            "name": "JQ_Example_jqTabs",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JQ_Example_jqTabs"
+          },
+          {
+            "name": "JQ_Example_jqGallery",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JQ_Example_jqGallery"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "ref": "JQ_Example_jqExpand",
+        "en": "jqExpand, a script to make HTML page elements collapsible: automatic DOM manipulation",
+        "it": "jqExpand, uno script per rendere collassabili elementi della pagina HTML: la manipolazione automatica del DOM",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Using ARIA attributes to give semantics to JQuery-controlled items",
+        "it": "Uso degli attributi ARIA per dare semantica agli elementi controllati da JQuery "
+      },
+      {
+        "show": false,
+        "en": "How to make collapsible elements (more) accessible",
+        "it": "Rendere gli elementi collassabili veramente accessibili",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Creation and usage of custom events with JQuery",
+        "it": "Creare e usare eventi custom con JQuery",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Using custom events to control and synchronize page objects",
+        "it": "Sfruttare eventi custom per controllare e sincronizzare tra loro oggetti della pagina "
+      },
+      {
+        "show": false,
+        "en": "Dynamically change the page before applying a script",
+        "it": "Modificare dinamicamente la pagina prima di applicare uno script "
+      },
+      {
+        "show": false,
+        "en": "Extend the JQuery function namespace",
+        "it": "Estendere il function namespace di JQuery"
+      },
+      {
+        "show": false,
+        "ref": "JQ_Example_jqTabs",
+        "en": "Tabbed Cards with JQuery",
+        "it": "Schede impilate ('tabbed') con JQuery",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "Making animated items accessible: what if scripts are turned off?",
+        "it": "Rendere accessibile un elemento animato: cosa succede se gli script sono disattivati? "
+      },
+      {
+        "show": false,
+        "en": "Move presentation logic, even if animated, from JQuery to style sheets",
+        "it": "Spostare la logica di presentazione, anche se animata, da JQuery ai fogli di stile "
+      },
+      {
+        "show": false,
+        "ref": "JQ_Example_jqGallery",
+        "en": "A simple gallery created as a JQuery plugin",
+        "it": "Una semplice galleria realizzata come plugin JQuery",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "How to extend the JQuery function namespace with a plugin and its defaults",
+        "it": "Estendere il function namespace di JQuery con un plugin e i suoi default "
+      },
+      {
+        "show": false,
+        "en": "The extend method to merge objects",
+        "it": "Il metodo extend per fondere tra loro oggetti "
+      },
+      {
+        "show": false,
+        "en": "Managing local and default options of a plugin",
+        "it": "Gestione delle opzioni locali e default di un plugin "
+      },
+      {
+        "show": false,
+        "en": "Using the data method to attach plugin instances to DOM elements",
+        "it": "Uso del metodo data per agganciare istanze del plugin agli elementi DOM da esse gestiti "
+      },
+      {
+        "show": false,
+        "en": "Extension: advanced Javascript and JQuery use to call plugin methods from the JQuery object",
+        "it": "Estensione: uso avanzato di Javascript e JQuery per chiamare metodi del plugin dall'oggetto JQuery "
+      }
+    ],
+    "title": {
+      "en": "RESTful clients /2",
+      "it": "Client RESTful /2"
     }
   }
 ]
