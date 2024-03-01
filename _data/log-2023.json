@@ -14,6 +14,14 @@
         "it": "Presentazione del corso"
       },
       {
+        "en": "Why (web) services are an effective way to develop software",
+        "it": "Perch\u00e9 i servizi (web) sono un modo efficace di sviluppare software"
+      },
+      {
+        "en": "The distributed (web) services story: from RPC to RESTful",
+        "it": "La storia dei servizi (web) distribuiti: dalla RPC al RESTful"
+      },
+      {
         "en": "Course topics: RESTful web services",
         "it": "Presentazione degli argomenti: RESTful web services"
       },
@@ -23,8 +31,8 @@
         "type": "esempio"
       },
       {
-        "en": "RESTful services as a base for client-side applications like SPA (Angular, etc.)",
-        "it": "I servizi RESTful come elemento base delle applicazioni fortemente client side come le SPA (Angular, ecc.)",
+        "en": "RESTful services as a base for client-side applications like SPA (Angular, React, etc.)",
+        "it": "I servizi RESTful come elemento base delle applicazioni fortemente client side come le SPA (Angular, React, ecc.)",
         "type": "esempio"
       },
       {
@@ -33,23 +41,16 @@
         "type": "esempio"
       },
       {
-        "en": "Course topics: JQuery",
-        "it": "Presentazione degli argomenti: JQuery"
+        "en": "Course topics: RESTful web services design",
+        "it": "Presentazione degli argomenti: progettazione di servizi RESTful"
       },
       {
-        "en": "JQuery as a fundamental element for Javascript crossbrowser programming",
-        "it": "JQuery come elemento essenziale per la programmazione crossbrowser in Javascript",
-        "type": "esempio"
+        "en": "Course topics: RESTful web services implementation (Java, PHP)",
+        "it": "Presentazione degli argomenti: implementazione di servizi RESTful (Java, PHP)"
       },
       {
-        "en": "JQuery as an helper in writing rich client-side interfaces",
-        "it": "JQuery come elemento di aiuto nella realizzazione di interfacce ricche lato client",
-        "type": "esempio"
-      },
-      {
-        "en": "JQuery is a low-level library! Isn't it better to employ, e.g., Angular to build a RIA?",
-        "it": "JQuery \u00e8 comunque una libreria di basso livello! Non \u00e8 meglio, ad esempio, usare Angular per realizzare una RIA?",
-        "type": "esempio"
+        "en": "Course topics: RESTful clients implementation (Java, PHP, Javascript)",
+        "it": "Presentazione degli argomenti: implementazione di client RESTful (Java, PHP, Javascript)"
       },
       {
         "en": "Web services and Web 2.0",
