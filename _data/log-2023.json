@@ -1,0 +1,82 @@
+[
+  {
+    "date": "2024-03-01T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "WS-Rest",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Course presentation",
+        "it": "Presentazione del corso"
+      },
+      {
+        "en": "Course topics: RESTful web services",
+        "it": "Presentazione degli argomenti: RESTful web services"
+      },
+      {
+        "en": "RESTful services as an extension to standard web applications",
+        "it": "I servizi RESTful come estensione delle applicazioni web standard",
+        "type": "esempio"
+      },
+      {
+        "en": "RESTful services as a base for client-side applications like SPA (Angular, etc.)",
+        "it": "I servizi RESTful come elemento base delle applicazioni fortemente client side come le SPA (Angular, ecc.)",
+        "type": "esempio"
+      },
+      {
+        "en": "RESTful services as a base for hybrid modile apps (Cordova, etc.)",
+        "it": "I servizi RESTful come elemento base delle applicazioni mobili ibride (Cordova, ecc.)",
+        "type": "esempio"
+      },
+      {
+        "en": "Course topics: JQuery",
+        "it": "Presentazione degli argomenti: JQuery"
+      },
+      {
+        "en": "JQuery as a fundamental element for Javascript crossbrowser programming",
+        "it": "JQuery come elemento essenziale per la programmazione crossbrowser in Javascript",
+        "type": "esempio"
+      },
+      {
+        "en": "JQuery as an helper in writing rich client-side interfaces",
+        "it": "JQuery come elemento di aiuto nella realizzazione di interfacce ricche lato client",
+        "type": "esempio"
+      },
+      {
+        "en": "JQuery is a low-level library! Isn't it better to employ, e.g., Angular to build a RIA?",
+        "it": "JQuery \u00e8 comunque una libreria di basso livello! Non \u00e8 meglio, ad esempio, usare Angular per realizzare una RIA?",
+        "type": "esempio"
+      },
+      {
+        "en": "Web services and Web 2.0",
+        "it": "I Web services nel Web 2.0"
+      },
+      {
+        "en": "What web services really are?",
+        "it": "Cosa sono i web services veramente?"
+      },
+      {
+        "en": "What is the role of web services in web 2.0?",
+        "it": "Che ruolo giocano i web services nel web 2.0?"
+      },
+      {
+        "en": "Analysis of some services published by the Public Administration on the web",
+        "it": "Analisi di servizi pubblicati su web dalla PA",
+        "type": "esempio"
+      },
+      {
+        "en": "An example of real web services: Amazon",
+        "it": "Un esempio di veri web services: Amazon",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "Introduction to (RESTful) web services",
+      "it": "Introduzione ai (RESTful) web services"
+    }
+  }
+]
