@@ -79,5 +79,160 @@
       "en": "Introduction to (RESTful) web services",
       "it": "Introduzione ai (RESTful) web services"
     }
+  },
+  {
+    "date": "2024-03-08T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Restful",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Making the Public Administration services real web services",
+        "it": "Realizzare i servizi della PA come veri web services",
+        "type": "esempio"
+      },
+      {
+        "en": "RESTful web services: when to use them, and what alternatives exist",
+        "it": "I servizi web RESTful: quando usarli, e quali alternative esistono"
+      },
+      {
+        "en": "The REST paradigm",
+        "it": "Il paradigma REST"
+      },
+      {
+        "en": "Web services with REST paradigm: RESTful web services",
+        "it": "I servizi web con paradigma REST: RESTful web services"
+      },
+      {
+        "en": "Basic features of a RESTful service: protocols, formats, methods",
+        "it": "Caratteristiche di base di un servizio RESTful: protocolli, formati, metodi"
+      },
+      {
+        "en": "Semantics of a RESTful web service: what kind of application it is best suited for?",
+        "it": "Semantica di un servizio web RESTful: a quali tipi di applicazione si adatta meglio?"
+      },
+      {
+        "en": "RESTful services URL structure",
+        "it": "Struttura delle URL in un servizio RESTful"
+      },
+      {
+        "en": "Mapping resources to URLs: the basic collection-item structure",
+        "it": "Mappare le risorse sulle URL: la struttura di base collection-item"
+      },
+      {
+        "en": "Mapping relational structures to RESTful URLs",
+        "it": "Mappare strutture relazionali su URL RESTful",
+        "type": "esempio"
+      },
+      {
+        "en": "CRUD RESTful operations: the GET method",
+        "it": "Operazioni CRUD via RESTful: il metodo GET",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET"
+          }
+        ]
+      },
+      {
+        "en": "GET on collections: SELECT",
+        "it": "GET su collezioni: SELECT",
+        "type": "esempio"
+      },
+      {
+        "en": "GET on collections with a query string: SELECT * WHERE",
+        "it": "GET su collezioni con query string: SELECT * WHERE",
+        "type": "esempio"
+      },
+      {
+        "en": "Encoding of  data returned by a GET and the Accept/Content-Type headers",
+        "it": "La codifica dei dati restituiti da una GET e gli header Accept/Content-Type"
+      },
+      {
+        "en": "The return value of GET on collections: records or keys  list?",
+        "it": "Il valore di ritorno delle GET su collezioni: lista di record o di sole chiavi?"
+      },
+      {
+        "en": "GET on collections: use of the query string to create a LIMIT clause",
+        "it": "GET su collezioni: usare la query string per simulare la clausola LIMIT",
+        "type": "esempio"
+      },
+      {
+        "en": "GET on item: SELECT * WHERE id = ...",
+        "it": "GET su item: SELECT * WHERE id=...",
+        "type": "esempio"
+      },
+      {
+        "en": "GET on attributes: SELECT a WHERE id = ...",
+        "it": "GET su attributi: SELECT a WHERE id=...",
+        "type": "esempio"
+      },
+      {
+        "en": "GET: HTTP return status",
+        "it": "GET: stati HTTP di ritorno",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
+          }
+        ]
+      },
+      {
+        "en": "CRUD RESTful operations: the PUT method",
+        "it": "Operazioni CRUD via RESTful: il metodo PUT",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT"
+          }
+        ]
+      },
+      {
+        "en": "PUT on item: global UPDATE of a specific record",
+        "it": "PUT su item: UPDATE globale su uno specifico record",
+        "type": "esempio"
+      },
+      {
+        "en": "The payload of the PUT method and the Content-Type header",
+        "it": "Il payload del metodo PUT e l'header Content-Type"
+      },
+      {
+        "en": "PUT on attributes: UPDATE of individual attributes in a specific record",
+        "it": "PUT su attributi: UPDATE di singoli attributi in uno specifico record",
+        "type": "esempio"
+      },
+      {
+        "en": "PUT on collections: replacement of an entire collection",
+        "it": "PUT su collezioni: sostituzione di un'intera collezione",
+        "type": "esempio"
+      },
+      {
+        "en": "PUT: HTTP return status",
+        "it": "PUT: stati HTTP di ritorno"
+      },
+      {
+        "en": "CRUD RESTful operations: the PATCH method",
+        "it": "Operazioni CRUD via RESTful: il metodo PATCH",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH"
+          }
+        ]
+      },
+      {
+        "en": "PATCH on item: partial UPDATE of a specific record",
+        "it": "PATCH su item: UPDATE parziale su uno specifico record",
+        "type": "esempio"
+      },
+      {
+        "en": "Extension of PUT semantics in environments not supporting the PATCH",
+        "it": "Estensione della semantica PUT in ambienti che non supportano la PATCH"
+      }
+    ],
+    "title": {
+      "en": "RESTful services semantics 1",
+      "it": "La semantica dei servizi RESTful 1"
+    }
   }
 ]
