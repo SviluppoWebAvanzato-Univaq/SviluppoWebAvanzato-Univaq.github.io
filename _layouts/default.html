@@ -24,9 +24,10 @@
   <body>
     <div class="wrapper container-fluid">
 	<div class="row">
-	<div class="sidebar col-sm-3 col-12">
+	
+	<div id="top" class="sidebar col-sm-3 col-12">
+	<a id="tocontent" href="#content" class="d-sm-none"><i class="bi bi-chevron-double-down"></i>{% if language == 'it' %}Vai al contenuto{% else %}Skip to content{% endif %}</a>	
 	<img src="https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png" title="" alt="University of L'Aquila" >
-      <a name="top"></a>
 	  <header class="sticky-md-top clearfix">
 	  
         <h1 class="header"><a href="/{{language}}/info">{{ courseinfo.nome }}</a></h1>
@@ -75,7 +76,8 @@
     </header>
  </div>
 			
-      <section class="py-sm-5 col">
+			
+      <section class="py-sm-5 col overflow-hidden" id="content">
        
 {{ content }}
 

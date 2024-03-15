@@ -163,6 +163,21 @@ header .nav-pills a.nav-link.active::after {
 	opacity: 1;
 }
 
+#tocontent {
+	display: block;
+	text-align: center;
+	font-size: 80%;
+	background-color: $dark-color;
+	color:white;
+	text-decoration: none;
+	transition: opacity .3s ease-in-out;
+	opacity: 0.5;
+}
+
+#tocontent:hover {
+	opacity: 1;
+}
+
 
 @media (max-width: 576px) {	
 	header {

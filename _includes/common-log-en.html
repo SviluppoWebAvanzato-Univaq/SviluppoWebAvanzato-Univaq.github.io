@@ -108,7 +108,7 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% for lezione in log %}
 {% unless lezione.show == false %} 
 {% assign nl = nl | plus: 1 %}
-<h3><a name="#L{{ nl }}"></a>Lecture {{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
+<h3 id="#L{{ nl }}">Lecture {{ nl }}:{% if lezione.title[language] %} {{ lezione.title[language] }}
 {% elsif lezione.title['all'] %} {{ lezione.title['all'] }}{% endif %}</h3>
 <p><small><em>{{ lezione.date | date: "%Y-%m-%d, %H:%M" }} ({{ lezione.duration }} hours)
 {% if lezione.video %}
@@ -139,15 +139,15 @@ document.getElementById('jumpto').addEventListener("change",function() {
 {% elsif argomento['all'] %} {{ argomento['all'] }}{% endif %}
 
 {% if argomento.ref %} 
-<br/><small><span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>material</span> {% if argomento.link %}<a href="{{ argomento.link }}">{% endif %}{{ argomento.ref }}{% if argomento.link %}</a>{% endif %}</small>
-{% elsif argomento.link %}  <br/><small><span class="badge rounded-pill bg-dark"><span class="bi bi-box-arrow-up-right"></span>link</span> <a href="{{ argomento.link }}">{{ argomento.link }}</a></small> 
+<br/><small><span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>material</span> {% if argomento.link %}<a  style="word-wrap: anywhere" href="{{ argomento.link }}">{% endif %}{{ argomento.ref }}{% if argomento.link %}</a>{% endif %}</small>
+{% elsif argomento.link %}  <br/><small><span class="badge rounded-pill bg-dark"><span class="bi bi-box-arrow-up-right"></span>link</span> <a  style="word-wrap: anywhere" href="{{ argomento.link }}">{{ argomento.link }}</a></small> 
 {% endif %}
 
 {% if argomento.attachments %} 
 {% for attachment in argomento.attachments %} 
 <br/>
-{% if attachment.name %}<small><span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>material</span> {% if attachment.link %}<a href="{{ attachment.link }}">{% endif %}{{ attachment.name }}{% if attachment.link %}</a>{% endif %}</small>
-{% elsif attachment.link %}<small><span class="badge rounded-pill bg-dark"><span class="bi bi-box-arrow-up-right"></span>link</span> <a href="{{ attachment.link }}">{{ attachment.link }}</a></small> 
+{% if attachment.name %}<small><span class="badge rounded-pill bg-dark"><span class="bi bi-download"></span>material</span> {% if attachment.link %}<a  style="word-wrap: anywhere" href="{{ attachment.link }}">{% endif %}{{ attachment.name }}{% if attachment.link %}</a>{% endif %}</small>
+{% elsif attachment.link %}<small><span class="badge rounded-pill bg-dark"><span class="bi bi-box-arrow-up-right"></span>link</span> <a  style="word-wrap: anywhere" href="{{ attachment.link }}">{{ attachment.link }}</a></small> 
 {% endif %}
 {% endfor %}
 {% endif %}
