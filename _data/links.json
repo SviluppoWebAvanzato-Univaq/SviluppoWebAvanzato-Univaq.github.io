@@ -28,6 +28,16 @@
   },
   {
     "nome": {
+      "all": "JSON Editor Online"
+    },
+    "commento": {
+      "it": "Un editor online di documenti JSON che offre anche la validazione con JSON Schema",
+      "en": "An online JSON document editor with JSON Schema validation"
+    },
+    "url": "https://jsoneditoronline.org"
+  },
+  {
+    "nome": {
       "all": "JSON Schema Validator"
     },
     "commento": {

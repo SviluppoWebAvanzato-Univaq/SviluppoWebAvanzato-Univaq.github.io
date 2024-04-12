@@ -530,5 +530,101 @@
       "en": "RESTful services: a case study",
       "it": "Progettazione di un servizio RESTful"
     }
+  },
+  {
+    "date": "2024-04-12T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "JSONSchema",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "JSON Schema: basic structure and annotations",
+        "it": "JSON Schema: struttura base e annotazioni",
+        "attachments": [
+          {
+            "link": "https://json-schema.org/specification.html"
+          }
+        ]
+      },
+      {
+        "en": "JSON Schema: meaning of the empty schema and \"modeling by restrictions\" technique",
+        "it": "JSON Schema: significato della schema vuoto e tecnica della modellazione per restrizioni"
+      },
+      {
+        "en": "JSON Schema: data types",
+        "it": "JSON Schema: i tipi di dato"
+      },
+      {
+        "en": "JSON Schema: string type and constraints",
+        "it": "JSON Schema: tipo stringa e relativi vincoli"
+      },
+      {
+        "en": "JSON Schema: numeric types and constraints",
+        "it": "JSON Schema: tipi numerici e relativi vincoli"
+      },
+      {
+        "en": "JSON Schema: object type and property specification",
+        "it": "JSON Schema: tipo oggetto e specifica delle propriet\u00e0"
+      },
+      {
+        "en": "JSON Schema: object type constraints",
+        "it": "JSON Schema: vincoli del tipo oggetto"
+      },
+      {
+        "en": "JSON Schema: array type and constraints",
+        "it": "JSON Schema: tipo array e relativi vincoli"
+      },
+      {
+        "en": "JSON Schema: enumerations",
+        "it": "JSON Schema: enumerazioni"
+      },
+      {
+        "en": "JSON Schema: schema composition (allOf, anyOf, oneOf, not)",
+        "it": "JSON Schema: composizione di schemi (allOf, anyOf, oneOf, not)"
+      },
+      {
+        "en": "JSON Schema: schema references and modularization ($ref property)",
+        "it": "JSON Schema: riferimenti a schemi e modularizzazione (propriet\u00e0 $ref)"
+      },
+      {
+        "en": "The event data structure defined with JSON Schema",
+        "it": "La struttura dati evento definita con JSON Schema",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Object.json",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2023"
+          },
+          {
+            "name": "Schema.json",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2023"
+          }
+        ]
+      },
+      {
+        "en": "The YAML (meta) language",
+        "it": "Il (meta) linguaggio YAML",
+        "attachments": [
+          {
+            "link": "https://yaml.org/spec"
+          }
+        ]
+      },
+      {
+        "en": "Relationships between YAML and JSON",
+        "it": "Relazioni tra YAML e JSON"
+      },
+      {
+        "en": "YAML syntax: scalars, objects and arrays",
+        "it": "La sintassi YAML: scalari, oggetti e array"
+      }
+    ],
+    "title": {
+      "all": "JSON Schema"
+    }
   }
 ]
