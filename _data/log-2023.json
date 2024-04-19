@@ -626,5 +626,77 @@
     "title": {
       "all": "JSON Schema"
     }
+  },
+  {
+    "date": "2023-04-19T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "OpenAPI",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Introduction to OpenAPI 3",
+        "it": "Presentazione di OpenAPI 3"
+      },
+      {
+        "en": "OpenAPI online tools and specification",
+        "it": "Tool e specifiche OpenAPI reperibili online",
+        "attachments": [
+          {
+            "link": "https://www.openapis.org/"
+          },
+          {
+            "link": "https://swagger.io/tools/open-source/"
+          }
+        ]
+      },
+      {
+        "en": "OpenAPI: basic structure",
+        "it": "OpenAPI: struttura di base"
+      },
+      {
+        "en": "OpenAPI: info object",
+        "it": "OpenAPI: oggetto info"
+      },
+      {
+        "en": "OpenAPI: tags object",
+        "it": "OpenAPI: oggetto tags"
+      },
+      {
+        "en": "OpenAPI: externalDocs object",
+        "it": "OpenAPI: oggetto externalDocs"
+      },
+      {
+        "en": "OpenAPI: servers",
+        "it": "OpenAPI: servers"
+      },
+      {
+        "en": "OpenAPI: specification factorization and components object",
+        "it": "OpenAPI: fattorizzazione della specifica e oggetto components"
+      },
+      {
+        "en": "OpenAPI: schema components",
+        "it": "OpenAPI: componenti di tipo schema"
+      },
+      {
+        "en": "OpenAPI: parameter components",
+        "it": "OpenAPI: componenti di tipo parameter"
+      },
+      {
+        "en": "OpenAPI: response components",
+        "it": "OpenAPI: componenti di tipo response"
+      },
+      {
+        "en": "The events RESTful service specification with OpenAPI 3: base structure, schemas, parameters and responses",
+        "it": "La specifica del servizio RESTful events con OpenAPI 3: struttura base, schemi, parametri e risposte",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "all": "OpenAPI /1"
+    }
   }
 ]
