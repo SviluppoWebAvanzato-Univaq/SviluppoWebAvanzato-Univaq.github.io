@@ -596,12 +596,12 @@
         "type": "esempio",
         "attachments": [
           {
-            "name": "Object.json",
-            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2023"
+            "name": "Event_Object.json",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/blob/main/2023/Event_Object.json"
           },
           {
-            "name": "Schema.json",
-            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2023"
+            "name": "Event_Object_Schema.json",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/blob/main/2023/Event_Object_Schema.json"
           }
         ]
       },
@@ -697,6 +697,90 @@
     ],
     "title": {
       "all": "OpenAPI /1"
+    }
+  },
+  {
+    "date": "2023-04-28T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "OpenAPI",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "OpenAPI: requestBody components",
+        "it": "OpenAPI:  componenti di tipo requestBody "
+      },
+      {
+        "en": "OpenAPI: securityScheme components",
+        "it": "OpenAPI:  componenti di tipo securityScheme "
+      },
+      {
+        "en": "OpenAPI: endpoints: basic structure of the paths object",
+        "it": "OpenAPI: specificare gli endpoint: struttura di base dell'oggetto paths"
+      },
+      {
+        "en": "OpenAPI: parametric URLs in the paths object",
+        "it": "OpenAPI: definire URL parametriche nell'oggetto paths"
+      },
+      {
+        "en": "OpenAPI: endpoint parameters (parameters)",
+        "it": "OpenAPI: definire i parametri di un endpoint (parameters)"
+      },
+      {
+        "en": "Path-level and method-level parameters",
+        "it": "Parametri di livello path e metodo"
+      },
+      {
+        "en": "OpenAPI: response status and corresponding content (responses)",
+        "it": "OpenAPI: definire i possibili stati di risposta e associare il realtivo contenuto (responses)"
+      },
+      {
+        "en": "OpenAPI: request content (requestBody)",
+        "it": "OpenAPI: definire il contenuto delle richieste (requestBody)"
+      },
+      {
+        "en": "OpenAPI: security requirements of an endpoint (security)",
+        "it": "OpenAPI: definire i requisiti di sicurezza di un endpoint (security)"
+      },
+      {
+        "en": "The events RESTful service specification with OpenAPI 3",
+        "it": "La specifica del servizio RESTful events con OpenAPI 3",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Event_OpenAPI.yaml",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/blob/main/2023/Event_OpenAPI.yaml"
+          }
+        ]
+      },
+      {
+        "en": "Developing a RESTful service with JAX-RS",
+        "it": "Sviluppo di progetti RESTful con JAX-RS",
+        "attachments": [
+          {
+            "link": "https://eclipse-ee4j.github.io/jersey/"
+          }
+        ]
+      },
+      {
+        "en": "JAX-RS dependencies in a Maven web application project",
+        "it": "Dipendenze JAX-RS in un progetto di web application con Maven"
+      },
+      {
+        "en": "Using Jackson as a JSON provider for JAX-RS",
+        "it": "Configurare Jackson come provider per JAX-RS",
+        "attachments": [
+          {
+            "link": "https://github.com/FasterXML/jackson-jaxrs-providers"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "OpenAPI /2"
     }
   }
 ]
