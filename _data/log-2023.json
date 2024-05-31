@@ -983,20 +983,291 @@
         "it": "Scrivere un filtro di autenticazione in JAX-RS"
       },
       {
-        "en": "RESTful API and authentication: returning an authentication token (authentication header, cookie or plain payload)",
-        "it": "Autenticazione in un'API RESTful: come restituire un token di autenticazione (header authentication, cookie o semplice payload"
-      },
-      {
         "en": "How to inject authenticated user information in a RESTful method",
         "it": "Iniettare le informazioni sull'utente autenticato in un metodo RESTful"
-      },
-      {
-        "en": "How to add CORS headers and handle preflight requests with a filter",
-        "it": "Inserire gli header CORS e gestire le richieste di preflight con un filtro"
       }
     ],
     "title": {
       "all": "JAX-RS /2"
+    }
+  },
+  {
+    "date": "2024-05-30T09:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "RESTful API and authentication: returning an authentication token (authentication header, cookie or plain payload)",
+        "it": "Autenticazione in un'API RESTful: come restituire un token di autenticazione (header authentication, cookie o semplice payload"
+      },
+      {
+        "en": "How to add CORS headers and handle preflight requests with a filter",
+        "it": "Inserire gli header CORS e gestire le richieste di preflight con un filtro"
+      },
+      {
+        "en": "RESTful in PHP with the Slim framework",
+        "it": "RESTful in PHP con il framework Slim"
+      },
+      {
+        "en": "A simple RESTful service created using Slim in PHP",
+        "it": "Un semplice servizio RESTful realizzato con Slim in PHP",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "PHP_Example_Fattura",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/PHP_Example_Fattura"
+          }
+        ]
+      },
+      {
+        "en": "RESTful in PHP with the Slim framework",
+        "it": "RESTful in PHP con il framework Slim"
+      },
+      {
+        "en": "Beyond RESTful: notes on gRPC, Protobuf, GraphQL...",
+        "it": "Oltre il RESTful: cenni su gRPC, Protobuf, GraphQL...",
+        "attachments": [
+          {
+            "link": "https://grpc.io/"
+          },
+          {
+            "link": "https://protobuf.dev/"
+          },
+          {
+            "link": "https://graphql.org/"
+          }
+        ]
+      },
+      {
+        "en": "RESTful best practices: rules of the right linguistic design",
+        "it": "Best practices RESTful: le regole del corretto design linguistico",
+        "attachments": [
+          {
+            "link": "https://doi.org/10.1109/SCC55611.2022.00017"
+          }
+        ]
+      },
+      {
+        "en": "Common RESTful errors: Over and underfetching, N+1 request problem, poor type safety",
+        "it": "Errori RESTful comuni: Over e under fetching, N+1 request problem, scarsa type safety"
+      },
+      {
+        "en": "Developing clients for RESTful services",
+        "it": "Sviluppo di client per servizi RESTful"
+      }
+    ],
+    "title": {
+      "en": "RESTful services implementation and best practices",
+      "it": "Implementazione dei servizi RESTful e best practices"
+    }
+  },
+  {
+    "date": "2024-05-31T11:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "RESTful clients in Java with the Apache HTTPComponents Client library",
+        "it": "Client RESTful in Java con la libreria Apache HTTPComponents Client"
+      },
+      {
+        "en": "A Java client for the events RESTful service",
+        "it": "Un client Java per il servizio RESTful events",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "EventsREST_Client_Java",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/EventsREST_Client_Java"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in PHP with the HTTPful library",
+        "it": "Client RESTful in PHP con la libreria HTTPful"
+      },
+      {
+        "en": "A PHP client for a simple RESTful service",
+        "it": "Un client PHP per un semplice servizio RESTful",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "PHP_Fattura_Client",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/PHP_Fattura_Client"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in Javascript with the XMLHttpRequest object (AJAX)",
+        "it": "Client RESTful in Javascript con l'oggetto XMLHttpRequest (AJAX)"
+      },
+      {
+        "en": "Synchronous and asynchronous RESTful calls",
+        "it": "Chiamate RESTful sincrone e asincrone"
+      },
+      {
+        "en": "A Javascript client for the events RESTful service: XHR client",
+        "it": "Un client Javascript per il servizio RESTful events: client XHR",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "EventsREST_Client_JS",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/EventsREST_Client_JS"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in Javascript with the Fetch API object ",
+        "it": "Client RESTful in Javascript con le Fetch API",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          }
+        ]
+      },
+      {
+        "en": "A Javascript client for the events RESTful service: Fetch client",
+        "it": "Un client Javascript per il servizio RESTful events: client Fetch",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "EventsREST_Client_JS",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/EventsREST_Client_JS"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to JQuery",
+        "it": "Introduzione a JQuery",
+        "attachments": [
+          {
+            "link": "https://jquery.com/"
+          }
+        ]
+      },
+      {
+        "en": "When it is correct to use JQuery in a web project?",
+        "it": "Quando usare JQuery in un progetto web?"
+      },
+      {
+        "en": "The $ function and the different ways to use it",
+        "it": "La funzione $ e i modi per utilizzarla"
+      },
+      {
+        "en": "Wrapping the DOM in JQuery objects",
+        "it": "Wrapping del DOM in oggetti JQuery"
+      },
+      {
+        "en": "Selecting items with JQuery: CSS3 selectors and traversal functions",
+        "it": "Selezionare elementi con JQuery: selettori CSS3 e funzioni di attraversamento"
+      },
+      {
+        "en": "Traversing the DOM with JQuery",
+        "it": "Attraversamento del DOM con JQuery"
+      },
+      {
+        "en": "JQuery DOM manipulation functions",
+        "it": "Le funzioni di manipolazione DOM in JQuery"
+      },
+      {
+        "en": "Modifying the DOM with JQuery",
+        "it": "Modifica del DOM con JQuery"
+      },
+      {
+        "en": "Modifying the CSS styles with JQuery",
+        "it": "Modifica degli stili CSS con JQuery"
+      },
+      {
+        "show": false,
+        "en": "Simplified element position and width manipulation",
+        "it": "Manipolazione semplificata di posizione e ampiezza degli elementi"
+      },
+      {
+        "en": "Event handling in JQuery: binding (in bubbling phase)",
+        "it": "Event handling in JQuery: binding (in fase bubbling)"
+      },
+      {
+        "en": "Event handling in JQuery: the normalized event object",
+        "it": "Event handling in JQuery: l'oggetto evento normalizzato"
+      },
+      {
+        "show": false,
+        "en": "Event handling in JQuery: delegation",
+        "it": "Event handling in JQuery: delegazione"
+      },
+      {
+        "en": "JQuery and AJAX: the main $ .ajax function",
+        "it": "JQuery e AJAX: la funzione principale $.ajax"
+      },
+      {
+        "en": "Automatic decoding of data received via AJAX",
+        "it": "Decodifica automatica dei dati ricevuti via AJAX"
+      },
+      {
+        "en": "The Jsonp dataType and the AJAX cross-origin calls executed without XMLHTTPRequest",
+        "it": "Il dataType jsonp e le chiamate AJAX cross-origin eseguite senza XMLHTTPRequest",
+        "type": "esempio"
+      },
+      {
+        "show": false,
+        "en": "JQuery and AJAX: $ .ajax main parameters",
+        "it": "JQuery e AJAX: parametri principali della chiamata $.ajax"
+      },
+      {
+        "show": false,
+        "en": "JQuery and AJAX: the event handlers of an AJAX call",
+        "it": "JQuery e AJAX: gli eventi handler di una chiamata AJAX"
+      },
+      {
+        "en": "JQuery and AJAX: the \"shortcut\"methods $ .get, $ .post, and $ .getJSON",
+        "it": "JQuery e AJAX: i metodi \"scorciatoia\"$.get, $.post e $.getJSON"
+      },
+      {
+        "show": false,
+        "en": "JQuery and AJAX: the special $.getScript method",
+        "it": "JQuery e AJAX: lo speciale metodo $.getScript"
+      },
+      {
+        "show": false,
+        "en": "JQuery and AJAX: the load method applied to JQuery objects",
+        "it": "JQuery e AJAX: il  metodo load applicato a oggetti JQuery"
+      },
+      {
+        "en": "RESTful clients in Javascript with JQuery",
+        "it": "Client RESTful in Javascript con JQuery"
+      },
+      {
+        "en": "A Javascript client for the events RESTful service: JQuery client",
+        "it": "Un client Javascript per il servizio RESTful events: client JQuery",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "EventsREST_Client_JS",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/EventsREST_Client_JS"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "en": "Advanced examples using JQuery for webpage manipulation",
+        "it": "Esempi avanzati di JQuery per la manipolazione delle pagine web",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JQ_Example_jqExpand",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JQ_Example_jqExpand"
+          },
+          {
+            "name": "JQ_Example_jqTabs",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JQ_Example_jqTabs"
+          },
+          {
+            "name": "JQ_Example_jqGallery",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JQ_Example_jqGallery"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "RESTful clients",
+      "it": "Client RESTful"
     }
   }
 ]
