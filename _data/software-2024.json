@@ -1,0 +1,83 @@
+  [
+  {
+      "url": "https://jdk.java.net",
+      "nome": "The Java Platform, Standard Edition",
+	  "versione": 22     
+    },
+    {
+      "url": "https://netbeans.apache.org/download/",
+      "nome": "Apache NetBeans",
+	  "versione": 22,
+      "commento": {
+        "it": "Ambiente di sviluppo integrato Java (utile per la realizzazione delle web application)",
+        "en": "A Java IDE, useful to develop web applications"
+      }
+    },
+	{
+      "url": "https://tomcat.apache.org",
+      "nome": "Apache Tomcat",
+	  "versione": "10.1.29",
+      "commento": {
+        "it": "Un server web HTTP gratuito e open source che supporta la tecnologia Java/Jakarta Servlet",
+        "en": "A free and open source HTTP web server supporting the Java/Jakarta Servlet technology"
+      }
+    },	
+    {
+      "url": "http://notepad-plus.sourceforge.net/",
+      "nome": "Notepad++",
+      "commento": {
+        "it": "Un editor potente per scrivere codice e script",
+        "en": "A good editor for code and scripts"
+      }
+    },
+	 {
+      "url": "https://www.postman.com/downloads/",
+      "nome": "Postman",
+      "commento": {
+        "all": "An API platform for building and using APIs"
+      }
+    },
+	{
+      "url": "https://editor.swagger.io/",
+      "nome": "Swagger Editor",
+      "commento": {
+        "all": "Design, describe, and document your API on the first open source editor supporting multiple API specifications and serialization formats"
+      }
+    },
+    {
+      "url": "http://www.getfirefox.com/",
+      "nome": "Mozilla Firefox"
+    },
+	{
+      "url": "http://hc.apache.org/httpcomponents-client-ga/",
+      "nome": "Apache HTTPComponents Client",
+      "commento": {
+        "it": "Una libreria semplice e potente per creare e gestire richieste HTTP",
+        "en": "A simple and powerful library to create and execute HTTP requests"
+      }
+    },
+	{
+      "url": "http://www.slimframework.com",
+      "nome": "Slim framework",
+      "commento": {
+        "it": "Un micro framework PHP utile per sviluppare API RESTful",
+        "en": "A PHP micro framework useful for developing RESTful APIs"
+      }
+    },
+	{
+      "url": "http://phphttpclient.com/",
+      "nome": "HTTPful",
+      "commento": {
+        "it": "Una semplice libreria PHP per dialogare via HTTP",
+        "en": "A simple PHP library to use the HTTP protocol"
+      }
+    },
+	{
+      "url": "http://jquery.com/",
+      "nome": "JQuery",
+      "commento": {
+        "it": "Una libreria piccola, veloce, potente e crossbrowser per programmare in Javascript in maniera efficiente",
+        "en": "A small, fast, powerful library for effective  cross-browser programming"
+      }
+    }
+  ]
