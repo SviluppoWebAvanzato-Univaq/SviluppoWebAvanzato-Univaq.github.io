@@ -166,5 +166,224 @@
       "en": "RESTful services semantics 1",
       "it": "La semantica dei servizi RESTful 1"
     }
+  },
+  {
+    "date": "2025-03-14T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Restful",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "GET on item: SELECT * WHERE id = ...",
+        "it": "GET su item: SELECT * WHERE id=...",
+        "type": "esempio"
+      },
+      {
+        "en": "GET on attributes: SELECT a WHERE id = ...",
+        "it": "GET su attributi: SELECT a WHERE id=...",
+        "type": "esempio"
+      },
+      {
+        "en": "GET: HTTP return status",
+        "it": "GET: stati HTTP di ritorno",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
+          }
+        ]
+      },
+      {
+        "en": "CRUD RESTful operations: the PUT method",
+        "it": "Operazioni CRUD via RESTful: il metodo PUT",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT"
+          }
+        ]
+      },
+      {
+        "en": "PUT on item: global UPDATE of a specific record",
+        "it": "PUT su item: UPDATE globale su uno specifico record",
+        "type": "esempio"
+      },
+      {
+        "en": "The payload of the PUT method and the Content-Type header",
+        "it": "Il payload del metodo PUT e l'header Content-Type"
+      },
+      {
+        "en": "PUT on attributes: UPDATE of individual attributes in a specific record",
+        "it": "PUT su attributi: UPDATE di singoli attributi in uno specifico record",
+        "type": "esempio"
+      },
+      {
+        "en": "PUT on collections: replacement of an entire collection",
+        "it": "PUT su collezioni: sostituzione di un'intera collezione",
+        "type": "esempio"
+      },
+      {
+        "en": "PUT: HTTP return status",
+        "it": "PUT: stati HTTP di ritorno"
+      },
+      {
+        "en": "CRUD RESTful operations: the PATCH method",
+        "it": "Operazioni CRUD via RESTful: il metodo PATCH",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH"
+          }
+        ]
+      },
+      {
+        "en": "PATCH on item: partial UPDATE of a specific record",
+        "it": "PATCH su item: UPDATE parziale su uno specifico record",
+        "type": "esempio"
+      },
+      {
+        "en": "Extension of PUT semantics in environments not supporting the PATCH",
+        "it": "Estensione della semantica PUT in ambienti che non supportano la PATCH"
+      },
+      {
+        "en": "CRUD RESTful operations: the POST method",
+        "it": "Operazioni CRUD via RESTful: il metodo POST",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST"
+          }
+        ]
+      },
+      {
+        "en": "POST on collections: INSERT of a new record",
+        "it": "POST su collezioni: INSERT di un nuovo record",
+        "type": "esempio"
+      },
+      {
+        "en": "The payload of the POST method and the Content-Type header",
+        "it": "Il payload del metodo POST e l'header Content-Type"
+      },
+      {
+        "en": "POST: HTTP return status and values",
+        "it": "POST: stati HTTP e valori di ritorno"
+      },
+      {
+        "en": "CRUD RESTful operations: the DELETE method",
+        "it": "Operazioni CRUD via RESTful: il metodo DELETE",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE"
+          }
+        ]
+      },
+      {
+        "en": "DELETE on item: DELETE of a specific record",
+        "it": "DELETE su item: DELETE di un record specifico",
+        "type": "esempio"
+      },
+      {
+        "en": "DELETE on collections: emptying a table",
+        "it": "DELETE su collezioni: svuotamento di una tabella",
+        "type": "esempio"
+      },
+      {
+        "en": "DELETE: HTTP return status",
+        "it": "DELETE: stati HTTP di ritorno"
+      },
+      {
+        "en": "Other HTTP methods: HEAD, OPTIONS",
+        "it": "Altri metodi HTTP: HEAD, OPTIONS",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD"
+          },
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS"
+          }
+        ]
+      },
+      {
+        "en": "HEAD on resource: metadata check",
+        "it": "HEAD su risorsa: controllo dei metadati",
+        "type": "esempio"
+      },
+      {
+        "en": "HEAD used to control resource caching",
+        "it": "HEAD usato per il caching delle risorse",
+        "type": "esempio"
+      },
+      {
+        "en": "OPTIONS on a resource: allowed methods check",
+        "it": "OPTIONS su risorsa: controllo sui metodi supportati",
+        "type": "esempio"
+      },
+      {
+        "en": "The same-origin-policy issue for services",
+        "it": "Il problema della same-origin-policy per i servizi",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy"
+          }
+        ]
+      },
+      {
+        "en": "How to grant access to RESTful services from outside (their domain): CORS",
+        "it": "Permettere l'accesso ai propri servizi RESTful dall'esterno (del loro dominio): CORS",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"
+          }
+        ]
+      },
+      {
+        "en": "OPTIONS and CORS: the resource preflight",
+        "it": "OPTIONS e CORS: la preflight delle risorse",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request"
+          }
+        ]
+      },
+      {
+        "en": "RESTful RMI-type operations",
+        "it": "Operazioni di tipo RMI via RESTful"
+      },
+      {
+        "en": "How to specify an object (context) and a method to be invoked thorugh an URL",
+        "it": "Specificare un oggetto (contesto) e un metodo da invocare tramite una URL"
+      },
+      {
+        "en": "The POST method used to make an RMI",
+        "it": "Il metodo POST utilizzato per effettuare una RMI",
+        "type": "esempio"
+      },
+      {
+        "en": "Encoding the parameters and the return value of a method invoked via POST",
+        "it": "Codifica dei parametri e del valore di ritorno di un metodo invocato tramite POST"
+      },
+      {
+        "en": "Payload and result for the POST method: Accept and Content-Type header",
+        "it": "Payload e risultato del metodo POST: header Accept e Content-Type"
+      },
+      {
+        "en": "POST for RMI: HTTP return status",
+        "it": "POST per RMI: stati HTTP di ritorno"
+      },
+      {
+        "en": "RESTful RMI-type operations: GET for read methods (derived attributes)",
+        "it": "Operazioni di tipo RMI via RESTful: usare GET per metodi di lettura (attributi calcolati)",
+        "type": "esempio"
+      },
+      {
+        "en": "The POST method as an alternative to  GET on collections to define complex filters",
+        "it": "Usare il metodo POST come alternativa alla GET su collezione per definire filtri complessi",
+        "type": "esempio"
+      }
+    ],
+    "title": {
+      "en": "RESTful services semantics 2",
+      "it": "La semantica dei servizi RESTful 2"
+    }
   }
 ]
