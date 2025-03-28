@@ -469,5 +469,74 @@
       "en": "RESTful services security",
       "it": "La sicurezza nei servizi RESTful"
     }
+  },
+  {
+    "date": "2025-03-28T11:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "The events case study",
+        "it": "Il caso di studio events",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "REST_Specs",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2024"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to the JSON format",
+        "it": "Introduzione al formato JSON",
+        "attachments": [
+          {
+            "link": "https://www.json.org"
+          }
+        ]
+      },
+      {
+        "en": "Defining the JSON structures required by a service (or inherit them from the code!)",
+        "it": "Definire le strutture JSON necessarie a un servizio (o ereditarle da codice!)"
+      },
+      {
+        "en": "Identifying the collection-item pattern within the API",
+        "it": "Identificare il pattern collection-item all'interno delle API"
+      },
+      {
+        "en": "Defining an  URL structure consistent with the API",
+        "it": "Definire una struttura di URL coerente con le API"
+      },
+      {
+        "en": "Outside the pattern: when violating the standard RESTful semantic helps us to be more efficient",
+        "it": "Fuori dal pattern: quando violare la semantica standard RESTful ci aiuta a essere pi\u00f9 efficienti"
+      },
+      {
+        "en": "Mapping methods and payloads on URLs",
+        "it": "Mappare metodi e payload sulle URL"
+      },
+      {
+        "en": "Managing binaries correctly and effectively",
+        "it": "Gestire i binari in maniera corretta ed efficace"
+      },
+      {
+        "en": "The events case study RESTful API",
+        "it": "La RESTful API per il caso di studio events",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "REST_Specs_RESTful",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2024"
+          }
+        ]
+      },
+      {
+        "en": "Introduction to JSON Schema",
+        "it": "Introduzione a JSON Schema"
+      }
+    ],
+    "title": {
+      "en": "RESTful services: a case study",
+      "it": "Progettazione di un servizio RESTful"
+    }
   }
 ]
