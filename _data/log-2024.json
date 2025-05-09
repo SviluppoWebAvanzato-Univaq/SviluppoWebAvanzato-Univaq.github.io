@@ -712,5 +712,85 @@
     "title": {
       "all": "OpenAPI /1"
     }
+  },
+  {
+    "date": "2025-05-09T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "OpenAPI",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "OpenAPI: response components",
+        "it": "OpenAPI: componenti di tipo response"
+      },
+      {
+        "en": "The events RESTful service specification with OpenAPI 3: base structure, schemas, parameters and responses",
+        "it": "La specifica del servizio RESTful events con OpenAPI 3: struttura base, schemi, parametri e risposte",
+        "type": "esempio"
+      },
+      {
+        "en": "OpenAPI: requestBody components",
+        "it": "OpenAPI:  componenti di tipo requestBody "
+      },
+      {
+        "en": "OpenAPI: securityScheme components",
+        "it": "OpenAPI:  componenti di tipo securityScheme "
+      },
+      {
+        "en": "OpenAPI: endpoints: basic structure of the paths object",
+        "it": "OpenAPI: specificare gli endpoint: struttura di base dell'oggetto paths"
+      },
+      {
+        "en": "OpenAPI: parametric URLs in the paths object",
+        "it": "OpenAPI: definire URL parametriche nell'oggetto paths"
+      },
+      {
+        "en": "OpenAPI: endpoint parameters (parameters)",
+        "it": "OpenAPI: definire i parametri di un endpoint (parameters)"
+      },
+      {
+        "en": "Path-level and method-level parameters",
+        "it": "Parametri di livello path e metodo"
+      },
+      {
+        "en": "OpenAPI: response status and corresponding content (responses)",
+        "it": "OpenAPI: definire i possibili stati di risposta e associare il realtivo contenuto (responses)"
+      },
+      {
+        "en": "OpenAPI: request content (requestBody)",
+        "it": "OpenAPI: definire il contenuto delle richieste (requestBody)"
+      },
+      {
+        "en": "OpenAPI: security requirements of an endpoint (security)",
+        "it": "OpenAPI: definire i requisiti di sicurezza di un endpoint (security)"
+      },
+      {
+        "en": "The events RESTful service specification with OpenAPI 3",
+        "it": "La specifica del servizio RESTful events con OpenAPI 3",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "Event_OpenAPI.yaml",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/blob/main/2024/Event_OpenAPI.yaml"
+          }
+        ]
+      },
+      {
+        "en": "Developing a RESTful service with JAX-RS",
+        "it": "Sviluppo di progetti RESTful con JAX-RS",
+        "attachments": [
+          {
+            "link": "https://eclipse-ee4j.github.io/jersey/"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "all": "OpenAPI /2"
+    }
   }
 ]
