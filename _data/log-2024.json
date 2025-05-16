@@ -792,5 +792,91 @@
     "title": {
       "all": "OpenAPI /2"
     }
+  },
+  {
+    "date": "2025-05-16T11:30:00",
+    "duration": 2,
+    "attachments": [
+      {
+        "name": "JAXRS_Examples",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/JAXRS_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "How to create a new JAX-RS server application",
+        "it": "Creare una nuova applicazione server JAX-RS",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JAXRS_Base_T10",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JAXRS_Base_T10"
+          }
+        ]
+      },
+      {
+        "en": "Configuring JAX-RS with service providers and resources: the Application class and  @ApplicationPath annotation",
+        "it": "Configurare JAX-RS con le risorse e i provider necessari: la classe Application e l'annotazione @ApplicationPath"
+      },
+      {
+        "en": "Marking classes as (root) RESTful resources: the @Path annotation",
+        "it": "Marcare le classi come risorse (root) RESTful: l'annotazione @Path"
+      },
+      {
+        "en": "Marking class methods to answer HTTP methods: the @GET annotation",
+        "it": "Marcare i metodi di una classe per rispondere ai metodi HTTP: l'annotazione @GET"
+      },
+      {
+        "en": "RESTful output type for a method: the @Produces annotation",
+        "it": "Identificare il tipo RESTful di output di un metodo: l'annotazione @Produces"
+      },
+      {
+        "en": "JAX-RS method return types and automatic type conversion",
+        "it": "Tipi restituibili da JAX-RS e conversione automatica di tipo"
+      },
+      {
+        "en": "Automatic JSON encoding of complex return types: lists, maps, objects",
+        "it": "Restituire tipo complessi con codifica automatica JSON: liste, mappe, oggetti"
+      },
+      {
+        "en": "Required structure for Java objects to be automatically encoded and decoded in JSON",
+        "it": "Oggetti Java (de)codificabili in JSON: caratteristiche richieste"
+      },
+      {
+        "en": "The @JsonIgnore annotation used to exclude class fields from the JSON output",
+        "it": "L'annotazione @JsonIgnore per escludere campi dall'ouput"
+      },
+      {
+        "en": "Using the Response class to build RESTful responses",
+        "it": "Usare la classe Response per costruire le risposte RESTful"
+      },
+      {
+        "en": "Returning status codes and building complex responses with the Response class",
+        "it": "Restituire codici di stato e costruire risposte complesse con la classe Response"
+      },
+      {
+        "en": "Handling and encapsulating exceptions: the WebApplicationException class",
+        "it": "Gestire e incapsulare le eccezioni: la classe WebApplicationException"
+      },
+      {
+        "en": "How to inject a query parameter in a method with the @QueryParam annotation",
+        "it": "Iniettare un parametro di query in quelli di un metodo con l'annotazione @QueryParam"
+      },
+      {
+        "en": "The @Path annotation on methods to identify sub-resources",
+        "it": "Uso dell'annotazione @Path sui metodi per identificare sotto-risorse"
+      },
+      {
+        "en": "The @Path annotation with parameters",
+        "it": "Uso dell'annotazione @Path con parti parametriche"
+      },
+      {
+        "en": "How to inject a URL parameter in a method with the @PathParam annotation",
+        "it": "Iniettare un parametro della URL in quelli di un metodo con l'annotazione @PathParam"
+      }
+    ],
+    "title": {
+      "all": "JAX-RS /1"
+    }
   }
 ]
