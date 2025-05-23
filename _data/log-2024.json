@@ -878,5 +878,103 @@
     "title": {
       "all": "JAX-RS /1"
     }
+  },
+  {
+    "date": "2025-05-23T11:30:00",
+    "duration": 2,
+    "attachments": [
+      {
+        "name": "JAXRS_Examples",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/JAXRS_Examples"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Returning a binary download",
+        "it": "Restituire un binario da scaricare"
+      },
+      {
+        "en": "Returning a stream: StreamingOutput",
+        "it": "Restituire uno stream: StreamingOutput"
+      },
+      {
+        "en": "Implementation of REST methods: the @POST annotation",
+        "it": "Implementazione dei metodi REST: l'annotazione @POST "
+      },
+      {
+        "en": "RESTful input type for a method: the @Consumes annotation",
+        "it": "Identificare il tipo RESTful di input di un metodo: l'annotazione @Consumes"
+      },
+      {
+        "en": "How to inject the request payload in a method",
+        "it": "Iniettare il payload di una richiesta in un metodo"
+      },
+      {
+        "en": "Data types for payloads: strings, numbers, InputStreams",
+        "it": "Tipi di dati accettabili come payload: stringhe, numeri, InputStream"
+      },
+      {
+        "en": "Automatic Java bean decoding from a JSON payload",
+        "it": "Decodifica automatica di Java bean dal payload JSON"
+      },
+      {
+        "en": "Using the UriInfo class to generate URIs to internal resources of a REST application",
+        "it": "Usare la classe UriInfo per generare URI di risorse REST interne all'applicazione"
+      },
+      {
+        "en": "Implementation of REST methods: the @PUT annotation",
+        "it": "Implementazione dei metodi REST: l'annotazione @PUT"
+      },
+      {
+        "en": "Implementation of REST methods: the @DELETE annotation",
+        "it": "Implementazione dei metodi REST: l'annotazione @DELETE"
+      },
+      {
+        "en": "Summary of JAX-RS techniques for single-class resources",
+        "it": "Riassunto delle tecniche utilizzabili con JAX-RS in una singola classe-risorsa"
+      },
+      {
+        "en": "A development pattern for RESTful services: sub-resources",
+        "it": "Un pattern di sviluppo per i servizi RESTful: le sotto-risorse"
+      },
+      {
+        "en": "Define and return a REST sub-resource with the @Path annotation",
+        "it": "Definire e restituire una sotto risorsa REST con l'annotazione @Path"
+      },
+      {
+        "en": "RESTful design with JAX-RS: when and how to use sub-resources?",
+        "it": "Progettazione RESTful con JAX-RS: quando e come utilizzare le sotto-risorse?"
+      },
+      {
+        "en": "The events RESTful service developed with JAX-RS",
+        "it": "Il servizio RESTful events realizzato con JAX-RS",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "JAXRS_Example_Events",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/JAXRS_Example_Events"
+          }
+        ]
+      },
+      {
+        "en": "RESTful API and authentication: returning an authentication token (authentication header, cookie or plain payload)",
+        "it": "Autenticazione in un'API RESTful: come restituire un token di autenticazione (header authentication, cookie o semplice payload"
+      },
+      {
+        "en": "How to define authentication-related annotations in JAX-RS",
+        "it": "Definire annotazioni associate alla sicurezza/autenticazione in JAX-RS"
+      },
+      {
+        "en": "Limit access to a RESTful method with an authentication annotation",
+        "it": "Limitare l'accesso a un metodo RESTful con un'annotazione di autenticazione"
+      },
+      {
+        "en": "How to write a authentication filter in JAX-RS",
+        "it": "Scrivere un filtro di autenticazione in JAX-RS"
+      }
+    ],
+    "title": {
+      "all": "JAX-RS /2"
+    }
   }
 ]
