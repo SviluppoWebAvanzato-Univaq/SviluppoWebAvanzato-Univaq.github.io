@@ -976,5 +976,95 @@
     "title": {
       "all": "JAX-RS /2"
     }
+  },
+  {
+    "date": "2025-05-30T11:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "How to inject authenticated user information in a RESTful method",
+        "it": "Iniettare le informazioni sull'utente autenticato in un metodo RESTful"
+      },
+      {
+        "en": "RESTful API and authentication: returning an authentication token (authentication header, cookie or plain payload)",
+        "it": "Autenticazione in un'API RESTful: come restituire un token di autenticazione (header authentication, cookie o semplice payload"
+      },
+      {
+        "en": "Creating advanced custom (de)serializers",
+        "it": "Creare (de)serializzatori custom avanzati"
+      },
+      {
+        "en": "Creating a custom (de)serializer for the Event class",
+        "it": "Creare un (de)serializzatore custom per la classe Event",
+        "type": "esempio"
+      },
+      {
+        "en": "Handling exceptions: the ExceptionMapper class",
+        "it": "Gestire le eccezioni: la classe ExceptionMapper"
+      },
+      {
+        "en": "How to add CORS headers and handle preflight requests with a filter",
+        "it": "Inserire gli header CORS e gestire le richieste di preflight con un filtro"
+      },
+      {
+        "en": "RESTful clients in Java with the Apache HTTPComponents Client library",
+        "it": "Client RESTful in Java con la libreria Apache HTTPComponents Client"
+      },
+      {
+        "en": "A Java client for the events RESTful service",
+        "it": "Un client Java per il servizio RESTful events",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "EventsREST_Client_Java",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/EventsREST_Client_Java"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in Javascript with the XMLHttpRequest object (AJAX)",
+        "it": "Client RESTful in Javascript con l'oggetto XMLHttpRequest (AJAX)"
+      },
+      {
+        "show": false,
+        "en": "Synchronous and asynchronous RESTful calls",
+        "it": "Chiamate RESTful sincrone e asincrone"
+      },
+      {
+        "en": "A Javascript client for the events RESTful service: XHR client",
+        "it": "Un client Javascript per il servizio RESTful events: client XHR",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "EventsREST_Client_JS",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/EventsREST_Client_JS"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in Javascript with the Fetch API object ",
+        "it": "Client RESTful in Javascript con le Fetch API",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          }
+        ]
+      },
+      {
+        "en": "A Javascript client for the events RESTful service: Fetch client",
+        "it": "Un client Javascript per il servizio RESTful events: client Fetch",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "EventsREST_Client_JS",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/EventsREST_Client_JS"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "RESTful clients",
+      "it": "Client RESTful"
+    }
   }
 ]
