@@ -1066,5 +1066,107 @@
       "en": "RESTful clients",
       "it": "Client RESTful"
     }
+  },
+  {
+    "date": "2025-06-03T16:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "RESTful in PHP with the Slim framework",
+        "it": "RESTful in PHP con il framework Slim"
+      },
+      {
+        "en": "A simple RESTful service created using Slim in PHP",
+        "it": "Un semplice servizio RESTful realizzato con Slim in PHP",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "PHP_Example_Fattura",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/PHP_Example_Fattura"
+          }
+        ]
+      },
+      {
+        "show": false,
+        "en": "RESTful clients in PHP with the HTTPful library",
+        "it": "Client RESTful in PHP con la libreria HTTPful"
+      },
+      {
+        "show": false,
+        "en": "A PHP client for a simple RESTful service",
+        "it": "Un client PHP per un semplice servizio RESTful",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "PHP_Fattura_Client",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/PHP_Fattura_Client"
+          }
+        ]
+      },
+      {
+        "en": "Basic notions about JQuery",
+        "it": "Cenni su JQuery",
+        "attachments": [
+          {
+            "link": "https://jquery.com/"
+          }
+        ]
+      },
+      {
+        "en": "JQuery and AJAX: the main $ .ajax function",
+        "it": "JQuery e AJAX: la funzione principale $.ajax"
+      },
+      {
+        "en": "JQuery and AJAX: the \"shortcut\"methods $ .get, $ .post, and $ .getJSON",
+        "it": "JQuery e AJAX: i metodi \"scorciatoia\"$.get, $.post e $.getJSON"
+      },
+      {
+        "en": "RESTful clients in Javascript with JQuery",
+        "it": "Client RESTful in Javascript con JQuery"
+      },
+      {
+        "en": "A Javascript client for the events RESTful service: JQuery client",
+        "it": "Un client Javascript per il servizio RESTful events: client JQuery",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "EventsREST_Client_JS",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/EventsREST_Client_JS"
+          }
+        ]
+      },
+      {
+        "en": "Beyond RESTful: notes on gRPC, Protobuf, GraphQL...",
+        "it": "Oltre il RESTful: cenni su gRPC, Protobuf, GraphQL...",
+        "attachments": [
+          {
+            "link": "https://grpc.io/"
+          },
+          {
+            "link": "https://protobuf.dev/"
+          },
+          {
+            "link": "https://graphql.org/"
+          }
+        ]
+      },
+      {
+        "en": "Common RESTful errors: Over and underfetching, N+1 request problem, poor type safety",
+        "it": "Errori RESTful comuni: Over e under fetching, N+1 request problem, scarsa type safety"
+      },
+      {
+        "en": "RESTful best practices: rules of the right linguistic design",
+        "it": "Best practices RESTful: le regole del corretto design linguistico",
+        "attachments": [
+          {
+            "link": "https://doi.org/10.1109/SCC55611.2022.00017"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "Advanced topics",
+      "it": "Argomenti avanzati"
+    }
   }
 ]
