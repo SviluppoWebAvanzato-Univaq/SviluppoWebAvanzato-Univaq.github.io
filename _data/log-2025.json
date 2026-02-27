@@ -1,3 +1,92 @@
 [
-  
+  {
+    "date": "2026-02-27T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "WS-Rest",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "Course presentation",
+        "it": "Presentazione del corso"
+      },
+      {
+        "en": "Why (web) services are an effective way to develop software",
+        "it": "Perch\u00e9 i servizi (web) sono un modo efficace di sviluppare software"
+      },
+      {
+        "en": "The distributed (web) services story: from RPC to RESTful",
+        "it": "La storia dei servizi (web) distribuiti: dalla RPC al RESTful"
+      },
+      {
+        "en": "Course topics: RESTful web services",
+        "it": "Presentazione degli argomenti: RESTful web services"
+      },
+      {
+        "en": "RESTful services as an extension to standard web applications",
+        "it": "I servizi RESTful come estensione delle applicazioni web standard",
+        "type": "esempio"
+      },
+      {
+        "en": "RESTful services as a base for client-side applications like SPA (Angular, React, etc.)",
+        "it": "I servizi RESTful come elemento base delle applicazioni fortemente client side come le SPA (Angular, React, ecc.)",
+        "type": "esempio"
+      },
+      {
+        "en": "RESTful services as a base for mobile apps",
+        "it": "I servizi RESTful come elemento base delle applicazioni mobili",
+        "type": "esempio"
+      },
+      {
+        "en": "Course topics: RESTful web services design",
+        "it": "Presentazione degli argomenti: progettazione di servizi RESTful"
+      },
+      {
+        "en": "Course topics: RESTful web services implementation (Java, PHP)",
+        "it": "Presentazione degli argomenti: implementazione di servizi RESTful (Java, PHP)"
+      },
+      {
+        "en": "Course topics: RESTful clients implementation (Java, PHP, Javascript)",
+        "it": "Presentazione degli argomenti: implementazione di client RESTful (Java, PHP, Javascript)"
+      },
+      {
+        "en": "Web services and Web 2.0",
+        "it": "I Web services nel Web 2.0"
+      },
+      {
+        "en": "What web services really are?",
+        "it": "Cosa sono i web services veramente?"
+      },
+      {
+        "en": "What is the role of web services in web 2.0?",
+        "it": "Che ruolo giocano i web services nel web 2.0?"
+      },
+      {
+        "en": "Analysis of some services published by the Public Administration on the web",
+        "it": "Analisi di servizi pubblicati su web dalla PA",
+        "type": "esempio"
+      },
+      {
+        "en": "An example of real web services: Amazon",
+        "it": "Un esempio di veri web services: Amazon",
+        "type": "esempio"
+      },
+      {
+        "en": "Making the Public Administration services real web services",
+        "it": "Realizzare i servizi della PA come veri web services",
+        "type": "esempio"
+      },
+      {
+        "en": "RESTful web services: when to use them, and what alternatives exist",
+        "it": "I servizi web RESTful: quando usarli, e quali alternative esistono"
+      }
+    ],
+    "title": {
+      "en": "Introduction to (RESTful) web services",
+      "it": "Introduzione ai (RESTful) web services"
+    }
+  }
 ]
