@@ -377,5 +377,119 @@
       "en": "RESTful services semantics 2",
       "it": "La semantica dei servizi RESTful 2"
     }
+  },
+  {
+    "date": "2026-03-20T11:30:00",
+    "duration": 2,
+    "slides": [
+      {
+        "name": "Restful Security",
+        "link": "https://github.com/SviluppoWebAvanzato-Univaq/SWA_Lecture_Slides"
+      }
+    ],
+    "arguments": [
+      {
+        "en": "The role of security in the design of RESTful APIs",
+        "it": "Il ruolo della sicurezza nel design delle API RESTful"
+      },
+      {
+        "en": "RESTful API security techniques: Mutual TLS",
+        "it": "Tecniche di sicurezza per API RESTful: Mutual TLS"
+      },
+      {
+        "en": "RESTful API security techniques: HTTP Basic Authentication",
+        "it": "Tecniche di sicurezza per API RESTful:  HTTP Basic Authentication"
+      },
+      {
+        "en": "RESTful API security techniques: Token-Based Authentication",
+        "it": "Tecniche di sicurezza per API RESTful: Token-Based Authentication"
+      },
+      {
+        "en": "The role of access tokens in API security",
+        "it": "Il ruolo dei token di accesso nella sicurezza delle API",
+        "attachments": [
+          {
+            "link": "https://datatracker.ietf.org/doc/html/rfc7519"
+          }
+        ]
+      },
+      {
+        "en": "How to exchange the access token: from base methods (query string, path) to Bearer Authorization",
+        "it": "Come scambiarsi il token di accesso: dai metodi rudimentali (query string, path) alla Bearer Authorization"
+      },
+      {
+        "en": "Generating access tokens: authentication schemes",
+        "it": "Generare i token di accesso: schemi di autenticazione"
+      },
+      {
+        "en": "Managing the expiration and refreshing access tokens",
+        "it": "Gestire la scadenza e il refresh dei token di accesso"
+      },
+      {
+        "en": "How to implement the login/logout technique in a RESTful service",
+        "it": "Realizzare la tecnica del login/logout in un servizio RESTful",
+        "type": "esempio"
+      },
+      {
+        "en": "RESTful API security techniques: API Keys",
+        "it": "Tecniche di sicurezza per API RESTful: API Keys"
+      },
+      {
+        "en": "OAuth: an advanced token-based authentication system for services",
+        "it": "OAuth: un sistema di autenticazione basato sui token particolarmente adatto ai servizi",
+        "attachments": [
+          {
+            "link": "https://datatracker.ietf.org/doc/html/rfc6749"
+          },
+          {
+            "link": "https://datatracker.ietf.org/doc/html/rfc6750"
+          },
+          {
+            "link": "https://oauth.net/2"
+          }
+        ]
+      },
+      {
+        "en": "The benefits of OAuth: no stored credentials and scoped authorization codes",
+        "it": "I vantaggi di OAuth: nessuna memorizzazione delle credenziali e codici di autorizzazione con contesto"
+      },
+      {
+        "en": "Actors and roles in OAuth 2",
+        "it": "Attori e ruoli in OAuth 2"
+      },
+      {
+        "en": "Tokens and codes used by OAuth 2",
+        "it": "Token e codici usati da OAuth 2"
+      },
+      {
+        "en": "The OAuth 2 authorization flow",
+        "it": "Il flusso di autorizzazione OAuth 2"
+      },
+      {
+        "it": "OAuth nel mondo reale",
+        "en": "OAuth in the real world",
+        "type": "esempio",
+        "attachments": [
+          {
+            "link": "https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow"
+          }
+        ]
+      },
+      {
+        "en": "The catalog case study",
+        "it": "Il caso di studio catalog",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "REST_Specs",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/tree/main/2025"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "RESTful services security",
+      "it": "La sicurezza nei servizi RESTful"
+    }
   }
 ]
