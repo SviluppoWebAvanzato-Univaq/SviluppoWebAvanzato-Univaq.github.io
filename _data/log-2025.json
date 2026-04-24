@@ -791,7 +791,7 @@
         "type": "esempio",
         "attachments": [
           {
-            "name": "Event_OpenAPI.yaml",
+            "name": "Catalogo_OpenAPI.yaml",
             "link": "https://github.com/SviluppoWebAvanzato-Univaq/Specifications_REST/blob/main/2025/Catalogo_OpenAPI.yaml"
           }
         ]
