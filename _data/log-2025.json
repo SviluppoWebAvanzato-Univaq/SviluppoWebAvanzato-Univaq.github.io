@@ -1007,5 +1007,79 @@
     "title": {
       "all": "JAX-RS /2"
     }
+  },
+  {
+    "date": "2026-05-22T11:30:00",
+    "duration": 2,
+    "arguments": [
+      {
+        "en": "Creating advanced custom (de)serializers",
+        "it": "Creare (de)serializzatori custom avanzati"
+      },
+      {
+        "en": "Creating a custom (de)serializer for the Product class",
+        "it": "Creare un (de)serializzatore custom per la classe Product",
+        "type": "esempio"
+      },
+      {
+        "en": "RESTful clients in Java with the Apache HTTPComponents Client library",
+        "it": "Client RESTful in Java con la libreria Apache HTTPComponents Client"
+      },
+      {
+        "en": "A Java client for the Catalog RESTful service",
+        "it": "Un client Java per il servizio RESTful Catalogo",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "CatalogREST_Client_Java",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/CatalogREST_Client_Java"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in Javascript with the XMLHttpRequest object (AJAX)",
+        "it": "Client RESTful in Javascript con l'oggetto XMLHttpRequest (AJAX)"
+      },
+      {
+        "show": false,
+        "en": "Synchronous and asynchronous RESTful calls",
+        "it": "Chiamate RESTful sincrone e asincrone"
+      },
+      {
+        "en": "A Javascript client for the Catalog RESTful service: XHR client",
+        "it": "Un client Javascript per il servizio RESTful Catalogo: client XHR",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "CatalogREST_Client_JS",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/CatalogREST_Client_JS"
+          }
+        ]
+      },
+      {
+        "en": "RESTful clients in Javascript with the Fetch API object ",
+        "it": "Client RESTful in Javascript con le Fetch API",
+        "attachments": [
+          {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+          }
+        ]
+      },
+      {
+        "en": "A Javascript client for the Catalog RESTful service: Fetch client",
+        "it": "Un client Javascript per il servizio RESTful Catalogo: client Fetch",
+        "type": "esempio",
+        "attachments": [
+          {
+            "name": "CatalogREST_Client_JS",
+            "link": "https://github.com/SviluppoWebAvanzato-Univaq/CatalogREST_Client_JS"
+          }
+        ]
+      }
+    ],
+    "title": {
+      "en": "RESTful clients",
+      "it": "Client RESTful"
+    }
   }
 ]
